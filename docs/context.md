@@ -23,12 +23,9 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Esse projeto é um recuso crucial para indivíduos do Brasil que buscam assistência com serviço sociais e locais, recurso comunitários e apoio a crises. É essencialmente uma linha de apoio nacional que conecta as pessoas com organizações e serviços locais que podem atender a várias necessidades, como assistência habitacional, apoio a saúde metal, assistência a serviços públicos, programas de alimentação e muito mais. Se alguém está enfrentando uma crise pessoal ou simplesmente precisa de ajuda para navegar pelos recursos disponíveis, esse projeto fornece um ponto de contato valioso e facilmente acessível. Com equipes de especialista comunitários altamente treinados que ficaram disponíveis para ajudá-los a acessar os melhores serviços locais para atender a qualquer necessidade.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Também fechamos parceria, se uma pessoa ou empresa opera uma organização nacional sem fins lucrativos, nosso podemos ajudar a tornar esse projeto visível para a população. 
 
 ## Justificativa
 
