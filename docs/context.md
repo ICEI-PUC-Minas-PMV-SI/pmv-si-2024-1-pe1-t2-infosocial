@@ -38,8 +38,4 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 **Imigrantes e Refugiados:** Indivíduos que migraram para o Brasil em busca de uma vida melhor podem enfrentar desafios de integração, incluindo barreiras linguísticas, discriminação e falta de acesso a serviços básicos. Eles podem precisar de assistência com questões legais, abrigo, emprego e educação.
     
 **Famílias em Crise:** Isso incluiria famílias que enfrentam crises como despejos, desastres naturais, divórcios, perda de emprego ou morte na família. Eles podem precisar de assistência financeira, habitação temporária, aconselhamento familiar e outros tipos de apoio.
-    
-
-Em resumo, o público-alvo do serviço nacional de assistência social no Brasil seria composto por pessoas de todas as idades, origens étnicas, econômicas e culturais que enfrentam dificuldades em acessar recursos e apoio social. O serviço seria projetado para atender às necessidades específicas desse público de forma abrangente, inclusiva e acessível.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+   
