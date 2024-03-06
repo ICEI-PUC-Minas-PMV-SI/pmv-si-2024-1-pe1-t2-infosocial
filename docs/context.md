@@ -27,7 +27,22 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+ **Pessoas em Situação de Vulnerabilidade Econômica:** Isso incluiria indivíduos e famílias que vivem na pobreza, desempregados, trabalhadores informais, e aqueles que enfrentam dificuldades financeiras devido a circunstâncias imprevistas, como doenças ou acidentes.
+    
+ **Pessoas em Situação de Rua:** Os sem-teto são um segmento vulnerável da população que frequentemente enfrenta múltiplos desafios, incluindo falta de moradia, fome, problemas de saúde física e mental, e falta de acesso a serviços básicos.
+    
+ **Vítimas de Violência e Abuso:** Isso incluiria pessoas que sofrem de violência doméstica, abuso sexual, exploração infantil e outras formas de violência e abuso. Essas pessoas podem precisar de assistência para encontrar abrigo seguro, suporte emocional e orientação legal.
+    
+ **Pessoas com Necessidades de Saúde Mental:** Indivíduos que enfrentam problemas de saúde mental, como depressão, ansiedade, transtorno bipolar, entre outros, podem precisar de acesso a serviços de saúde mental, incluindo aconselhamento, tratamento e suporte de pares.
+    
+**Idosos e Pessoas com Deficiência:** Esse grupo incluiria idosos que vivem sozinhos, pessoas com deficiência física ou mental, e aqueles que precisam de assistência adicional para realizar atividades diárias. Eles podem precisar de ajuda para acessar serviços de cuidados de saúde, assistência domiciliar e transporte.
+    
+**Imigrantes e Refugiados:** Indivíduos que migraram para o Brasil em busca de uma vida melhor podem enfrentar desafios de integração, incluindo barreiras linguísticas, discriminação e falta de acesso a serviços básicos. Eles podem precisar de assistência com questões legais, abrigo, emprego e educação.
+    
+**Famílias em Crise:** Isso incluiria famílias que enfrentam crises como despejos, desastres naturais, divórcios, perda de emprego ou morte na família. Eles podem precisar de assistência financeira, habitação temporária, aconselhamento familiar e outros tipos de apoio.
+    
+
+Em resumo, o público-alvo do serviço nacional de assistência social no Brasil seria composto por pessoas de todas as idades, origens étnicas, econômicas e culturais que enfrentam dificuldades em acessar recursos e apoio social. O serviço seria projetado para atender às necessidades específicas desse público de forma abrangente, inclusiva e acessível.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
