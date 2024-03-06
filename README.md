@@ -6,19 +6,17 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em andamento concentra-se na mitigação das dificuldades relacionadas ao acesso a informações sobre programas sociais e assistência governamental. Trata-se da criação de um site abrangente que consolidará dados sobre diversos programas sociais, integrando notícias relevantes, uma central de ajuda interativa e uma seção dedicada à realização de pesquisas aprofundadas. O objetivo subjacente é proporcionar aos usuários uma plataforma única e acessível, simplificando a busca por informações cruciais, fomentando a transparência e facilitando o acesso aos recursos governamentais destinados a beneficiar a comunidade.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Adilmar Muniz Parreira Moreira
+* Marco Túlio Candeo Medeiros e Silva
+* Sandro Sodre Nunes Junior
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin 
 
 # Planejamento
 
