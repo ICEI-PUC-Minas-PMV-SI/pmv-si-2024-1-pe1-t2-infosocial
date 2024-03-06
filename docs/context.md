@@ -10,16 +10,7 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O cerne do problema que buscamos solucionar reside na dificuldade generalizada de acesso a informações cruciais sobre programas sociais e assistência governamental. Observa-se que muitos cidadãos enfrentam obstáculos ao tentar obter dados relevantes sobre os benefícios disponíveis, os critérios de elegibilidade e os procedimentos para acesso a esses programas. A dispersão dessas informações em diferentes fontes e a falta de uma plataforma centralizada contribuem para a confusão e a desinformação. Ao desenvolver este projeto, almejamos simplificar esse processo, consolidando informações, fornecendo uma fonte confiável e central para pesquisa, e, por conseguinte, fortalecendo a capacidade da comunidade em acessar adequadamente os recursos governamentais disponíveis.
 
 ## Objetivos
 
