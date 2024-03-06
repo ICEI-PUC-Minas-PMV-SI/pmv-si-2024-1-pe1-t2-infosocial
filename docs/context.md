@@ -22,8 +22,6 @@ Lembre-se de pesquisar e utilizar números que justifiquem por que é importante
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -45,9 +43,3 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 Em resumo, o público-alvo do serviço nacional de assistência social no Brasil seria composto por pessoas de todas as idades, origens étnicas, econômicas e culturais que enfrentam dificuldades em acessar recursos e apoio social. O serviço seria projetado para atender às necessidades específicas desse público de forma abrangente, inclusiva e acessível.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
