@@ -30,9 +30,6 @@ Layla, a mais velha, era a protetora do grupo, sempre atenta às necessidades de
 
 Juntas, essas mulheres enfrentavam o desconhecido em busca de um novo lar e de uma chance de recomeçar. Embora o caminho fosse difícil e cheio de obstáculos, elas nunca perdiam a esperança de encontrar abrigo e segurança. 
 
-E assim, essa família de mulheres continuava sua jornada, confiante de que, com amor, coragem e união, poderiam superar qualquer desafio que a vida lhes reservasse. Pois, no fim das contas, era o amor que as mantinha unidas e lhes dava forças para seguir em frente, rumo a um futuro cheio de promessas e possibilidades. 
-
-
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
