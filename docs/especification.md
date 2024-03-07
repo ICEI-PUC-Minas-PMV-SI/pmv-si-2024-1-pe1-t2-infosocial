@@ -6,8 +6,6 @@ Essa abordagem centrada no usuário visa assegurar que as soluções propostas s
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
 ![seu joão](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/88774181-de2e-4ae0-919b-91bf8b06ddf8)
 
 Havia um senhor chamado Sr. Garcia, um homem idoso e gentil que passou a maior parte de sua vida cuidando dos outros. Ele trabalhou incansavelmente para sustentar sua família e, agora, na sua idade avançada, encontrava-se enfrentando uma batalha difícil contra várias condições de saúde. 
