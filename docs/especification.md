@@ -28,7 +28,7 @@ Juntas, essas mulheres enfrentavam o desconhecido em busca de um novo lar e de u
 
 ![Seu Manuel](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/fc83f2bc-3475-4f0b-8f1e-1f44bdbbf93b)
 
-Seu Manuel, de 44 anos que está procurando ajuda para parar com seu vicio em álcool 
+Seu Manuel, de 44 anos, que está procurando ajuda para parar com seu vicio em álcool 
 
 ## Histórias de Usuários
 
