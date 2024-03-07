@@ -8,6 +8,32 @@ Essa abordagem centrada no usuário visa assegurar que as soluções propostas s
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
+![seu joão](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/88774181-de2e-4ae0-919b-91bf8b06ddf8)
+
+Havia um senhor chamado Sr. Garcia, um homem idoso e gentil que passou a maior parte de sua vida cuidando dos outros. Ele trabalhou incansavelmente para sustentar sua família e, agora, na sua idade avançada, encontrava-se enfrentando uma batalha difícil contra várias condições de saúde. 
+
+Os medicamentos que o Sr. Garcia precisava eram essenciais para sua qualidade de vida, mas infelizmente eram caros demais para ele suportar com sua modesta pensão de aposentadoria. Ele se viu muitas vezes tendo que escolher entre comprar os remédios de que precisava ou pagar suas contas básicas, como aluguel e comida. 
+ 
+![Dona Elsa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/ba79e668-9970-451d-96f1-1a1b52bc0270)
+
+Dona Elsa era uma senhora amável e bondosa, mas nos últimos anos ela havia enfrentado uma batalha silenciosa contra a solidão. Após a morte de seu marido, ela se viu sozinha em sua casa, sem muitas interações sociais e cercada pela quietude que a ausência dele deixara. 
+
+Ela tentou manter-se ocupada com suas tarefas diárias, mas a solidão era como uma sombra persistente que a acompanhava a cada passo. Dona Elsa ansiava por companhia, por alguém com quem pudesse compartilhar suas histórias, seus pensamentos e suas alegrias. 
+
+![família](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/a77ef334-b3cc-4ef9-8e21-931a57ae9eb7)
+
+Essas mulheres haviam abandonado um país assolado pela guerra e pela opressão, buscando segurança e oportunidades em terras estrangeiras. Juntas, enfrentavam uma jornada repleta de perigos e desafios, mas mantinham-se unidas por um vínculo inquebrável de amor e solidariedade. 
+
+Dona Fatima carregava consigo as memórias de uma vida inteira, marcada por perdas e sacrifícios. Ela havia visto seu lar ser destruído pela guerra e perder entes queridos para a violência. No entanto, sua determinação de proteger sua família nunca vacilava. 
+
+Sara, seguindo os passos de sua mãe, era a âncora da família, mantendo a esperança viva mesmo nos momentos mais sombrios. Ela cuidava com amor e dedicação de suas quatro filhas, inspirando-as a nunca desistirem de seus sonhos. 
+
+Layla, a mais velha, era a protetora do grupo, sempre atenta às necessidades de suas irmãs mais novas. Aisha, a segunda, era a sonhadora, com uma paixão pela arte e pela literatura que a transportava para mundos distantes. Zahra, a terceira, era a corajosa, determinada a enfrentar qualquer desafio que a vida lhe impusesse. E Leila, a caçula, era a luz da família, com seu sorriso contagiante e sua energia inesgotável. 
+
+Juntas, essas mulheres enfrentavam o desconhecido em busca de um novo lar e de uma chance de recomeçar. Embora o caminho fosse difícil e cheio de obstáculos, elas nunca perdiam a esperança de encontrar abrigo e segurança. 
+
+E assim, essa família de mulheres continuava sua jornada, confiante de que, com amor, coragem e união, poderiam superar qualquer desafio que a vida lhes reservasse. Pois, no fim das contas, era o amor que as mantinha unidas e lhes dava forças para seguir em frente, rumo a um futuro cheio de promessas e possibilidades. 
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
