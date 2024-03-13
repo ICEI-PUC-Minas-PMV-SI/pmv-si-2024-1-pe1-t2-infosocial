@@ -8,27 +8,60 @@ Essa abordagem centrada no usuário visa assegurar que as soluções propostas s
 
 ![seu joão](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/88774181-de2e-4ae0-919b-91bf8b06ddf8)
 
-Sr. Garcia, de 65 anos, que está procurando ajuda para comprar os remédios.
 
-Os medicamentos que o Sr. Garcia precisava eram essenciais para sua qualidade de vida, mas infelizmente eram caros demais para ele suportar com sua modesta pensão de aposentadoria. Ele se viu muitas vezes tendo que escolher entre comprar os remédios de que precisava ou pagar suas contas básicas, como aluguel e comida. 
+Sr. Garcia, um senhor de 65 anos, sempre foi um homem independente e curioso. Ele cresceu em uma época em que a tecnologia não era tão predominante, mas sempre teve interesse em aprender coisas novas. No entanto, conforme a internet foi se tornando uma parte cada vez mais essencial da vida cotidiana, Sr. Garcia começou a sentir-se excluído.
+
+Apesar de sua vontade de aprender, Sr. Garcia enfrentava dificuldades ao tentar acessar sites na internet. Os botões eram pequenos demais, as fontes pouco legíveis e a organização confusa para seus olhos cansados. Ele sentia-se frustrado com a forma como os sites pareciam ser projetados para pessoas mais jovens, com visão perfeita e habilidades tecnológicas avançadas.
+
+Certo dia, Sr. Garcia precisava acessar o site do governo para fazer um procedimento burocrático importante. Ele passou horas tentando navegar pelo site, mas acabou desistindo devido à sua dificuldade em encontrar o que precisava. Sentindo-se desanimado e isolado, Sr. Garcia começou a se perguntar se a tecnologia realmente era para ele.
+
+No entanto, sua neta, Sofia, notou a frustração de Sr. Garcia e decidiu ajudá-lo. Ela passou algum tempo pesquisando e encontrou programas e extensões que poderiam tornar a experiência na internet mais fácil para ele. Sofia também ensinou Sr. Garcia a ajustar as configurações do navegador para aumentar o tamanho do texto e a acessibilidade geral.
+
+Com a ajuda de Sofia e algumas adaptações simples, Sr. Garcia começou a se sentir mais confiante em suas habilidades online. Ele percebeu que não estava sozinho em suas dificuldades e que muitos outros idosos enfrentavam os mesmos problemas. Determinado a fazer a diferença, Sr. Garcia começou a se envolver em grupos de advocacia para a acessibilidade na internet para idosos.
+
+Ele participou de reuniões, escreveu cartas para empresas e até mesmo deu palestras sobre a importância de tornar os sites mais amigáveis para pessoas de todas as idades. Com o tempo, sua voz foi ouvida, e muitas empresas começaram a implementar mudanças em seus sites para torná-los mais acessíveis para idosos e pessoas com deficiência.
+
+Sr. Garcia percebeu que, embora possa haver obstáculos, sempre há uma maneira de superá-los quando se tem determinação e apoio. Sua jornada não apenas melhorou sua própria experiência na internet, mas também teve um impacto positivo na vida de muitos outros que enfrentavam desafios semelhantes. Ele se tornou um símbolo de perseverança e advocacy, inspirando outros a nunca desistirem de aprender e se adaptar às mudanças tecnológicas.
  
+![Dona Elsa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/9074975e-05c4-4e34-b2b9-a9b01ffb7c80)
+
+Dona Elsa, uma senhora de 85 anos, sempre foi uma alma gentil e compassiva. Ela testemunhou muitas mudanças ao longo de sua vida, mas nada a preparou para o desafio que enfrentaria ao tentar navegar na internet em seus anos dourados.
+
+Embora Dona Elsa estivesse aberta a novas tecnologias, ela lutava para encontrar conforto e compreensão ao usar a internet. Os sites que ela visitava pareciam ser projetados para uma geração muito mais jovem, com suas letras pequenas e botões minúsculos. Ela se via constantemente tendo que pedir ajuda aos seus netos ou vizinhos para realizar tarefas simples, como pagar contas online ou acessar informações importantes.
+
+Certa vez, Dona Elsa precisava renovar sua receita médica online. No entanto, ela passou horas tentando entender o processo, apenas para acabar frustrada e confusa. Ela sentia-se isolada e desamparada, incapaz de participar plenamente da era digital que envolvia todos ao seu redor.
+
+Mas ao invés de desistir, Dona Elsa decidiu enfrentar o desafio de frente. Ela começou a frequentar aulas de informática para idosos em seu centro comunitário local. Lá, ela encontrou outras pessoas que compartilhavam suas lutas e suas histórias. Juntos, eles formaram uma comunidade de apoio, ajudando-se mutuamente a superar obstáculos e a descobrir os segredos da internet.
+
+Com paciência e determinação, Dona Elsa gradualmente começou a dominar as habilidades necessárias para navegar na internet de forma independente. Ela aprendeu a ajustar o tamanho do texto em seu navegador, a usar atalhos de teclado e a reconhecer os sinais de segurança ao fazer compras online.
+
+Além disso, Dona Elsa tornou-se uma defensora apaixonada pela acessibilidade na internet para idosos. Ela escreveu cartas para empresas, pedindo-lhes que considerassem as necessidades das pessoas idosas ao projetar seus sites. Ela também se ofereceu para dar palestras em escolas locais e empresas sobre a importância de tornar a internet acessível para todos, independentemente da idade.
+
+Com o tempo, o esforço de Dona Elsa começou a render frutos. Mais e mais empresas começaram a implementar mudanças em seus sites para torná-los mais amigáveis para idosos. Dona Elsa viu sua própria jornada como uma prova de que nunca é tarde para aprender algo novo e que, com determinação e apoio, podemos superar qualquer obstáculo.
+
+Dona Elsa se tornou um modelo de inspiração para outros idosos em sua comunidade, mostrando-lhes que a idade não é uma barreira para a participação ativa na sociedade digital. Sua história é um lembrete poderoso de que, com perseverança e solidariedade, podemos construir um mundo onde todos tenham acesso igualitário à vasta riqueza de recursos que a internet tem a oferecer.
+
 ![dona Maria](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/fd94f3ca-f4e9-44f1-bcb3-06f5c55a33ba)
 
-Dona Elsa, de 65, que está procurando ajuda para vencer a solidão.
+Dona Maria, uma mulher de 70 anos, sempre foi uma pessoa ativa e interessada em aprender coisas novas. No entanto, nos últimos anos, ela enfrentou um desafio que testou sua determinação mais do que nunca: problemas de visão.
 
-Ela tentou manter-se ocupada com suas tarefas diárias, mas a solidão era como uma sombra persistente que a acompanhava a cada passo. Dona Elsa ansiava por companhia, por alguém com quem pudesse compartilhar suas histórias, seus pensamentos e suas alegrias. 
+Dona Maria foi diagnosticada com degeneração macular, uma condição que afeta sua visão central, dificultando sua capacidade de ler e ver detalhes finos. Confrontada com essa nova realidade, Dona Maria encontrou-se lutando não apenas para realizar tarefas cotidianas, mas também para se manter conectada em um mundo cada vez mais digital.
 
-![família](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/a77ef334-b3cc-4ef9-8e21-931a57ae9eb7)
+Ela adorava ler notícias online, manter contato com amigos e familiares por meio das redes sociais e até mesmo fazer compras pela internet. No entanto, à medida que sua visão piorava, ela descobriu que os sites que costumava visitar eram cada vez mais difíceis de usar. As letras eram muito pequenas, os contrastes eram fracos e os botões eram difíceis de distinguir.
 
-Família que hoje buscam ajuda para encontrar um abrigo.
+Sentindo-se isolada e frustrada, Dona Maria quase desistiu de tentar usar a internet. No entanto, sua filha, Carolina, percebeu o quanto sua mãe estava lutando e decidiu intervir. Ela pesquisou e encontrou ferramentas de acessibilidade que poderiam ajudar Dona Maria a navegar na internet com mais facilidade.
 
-Essas mulheres haviam abandonado um país assolado pela guerra e pela opressão, buscando segurança e oportunidades em terras estrangeiras. Juntas, enfrentavam uma jornada repleta de perigos e desafios, mas mantinham-se unidas por um vínculo inquebrável de amor e solidariedade. 
+Com a ajuda de Carolina, Dona Maria começou a usar software de ampliação de tela, que aumentava o tamanho do texto e dos elementos na tela. Ela também descobriu a importância de ajustar o contraste e as configurações de brilho para tornar a tela mais legível. Além disso, Carolina ajudou Dona Maria a configurar atalhos de teclado para facilitar a navegação.
 
-Juntas, essas mulheres enfrentavam o desconhecido em busca de um novo lar e de uma chance de recomeçar. Embora o caminho fosse difícil e cheio de obstáculos, elas nunca perdiam a esperança de encontrar abrigo e segurança. 
+Com essas adaptações, Dona Maria começou a se sentir mais confiante ao usar a internet novamente. Ela podia ler notícias, enviar e-mails e até mesmo fazer videochamadas com seus entes queridos. A tecnologia que antes parecia ser uma barreira tornou-se uma ferramenta poderosa para manter sua independência e conexão com o mundo ao seu redor.
 
-![Seu Manuel](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/fc83f2bc-3475-4f0b-8f1e-1f44bdbbf93b)
+Dona Maria não parou por aí. Ela decidiu compartilhar suas experiências e descobertas com outras pessoas que enfrentavam desafios semelhantes. Ela se juntou a grupos de apoio online e participou de fóruns de discussão sobre acessibilidade na internet para pessoas com deficiência visual.
 
-Seu Manuel, de 44 anos, que está procurando ajuda para parar com seu vicio em álcool 
+Com sua voz e experiência, Dona Maria ajudou a conscientizar a importância de projetar sites e aplicativos com acessibilidade em mente. Ela escreveu cartas para empresas, pedindo-lhes que considerassem as necessidades das pessoas com deficiência visual ao desenvolver suas plataformas online.
+
+Ao longo do tempo, Dona Maria viu uma mudança positiva acontecer. Mais e mais empresas começaram a implementar recursos de acessibilidade em seus produtos, tornando a internet um lugar mais inclusivo para pessoas como ela.
+
+Dona Maria percebeu que sua deficiência visual não a limitava, mas sim a impulsionava a encontrar soluções criativas e a fazer uma diferença real no mundo. Sua jornada inspiradora é um lembrete poderoso de que a tecnologia tem o poder de capacitar e conectar pessoas de todas as habilidades e idades.
 
 ## Histórias de Usuários
 
