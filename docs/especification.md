@@ -39,19 +39,9 @@ Dona Maria foi diagnosticada com degeneração macular, uma condição que afeta
 
 Ela adorava ler notícias online, manter contato com amigos e familiares por meio das redes sociais e até mesmo fazer compras pela internet. No entanto, à medida que sua visão piorava, ela descobriu que os sites que costumava visitar eram cada vez mais difíceis de usar. As letras eram muito pequenas, os contrastes eram fracos e os botões eram difíceis de distinguir.
 
-Sentindo-se isolada e frustrada, Dona Maria quase desistiu de tentar usar a internet. No entanto, sua filha, Carolina, percebeu o quanto sua mãe estava lutando e decidiu intervir. Ela pesquisou e encontrou ferramentas de acessibilidade que poderiam ajudar Dona Maria a navegar na internet com mais facilidade.
+Sentindo-se isolada e frustrada, Dona Maria quase desistiu de tentar usar a internet. No entanto, sua filha, Carolina, percebeu o quanto sua mãe estava lutando e decidiu intervir. Ela pesquisou e encontrou ferramentas de leitura de tela feitas para ajudar pessoas com defiências visuais.
 
-Com a ajuda de Carolina, Dona Maria começou a usar software de ampliação de tela, que aumentava o tamanho do texto e dos elementos na tela. Ela também descobriu a importância de ajustar o contraste e as configurações de brilho para tornar a tela mais legível. Além disso, Carolina ajudou Dona Maria a configurar atalhos de teclado para facilitar a navegação.
-
-Com essas adaptações, Dona Maria começou a se sentir mais confiante ao usar a internet novamente. Ela podia ler notícias, enviar e-mails e até mesmo fazer videochamadas com seus entes queridos. A tecnologia que antes parecia ser uma barreira tornou-se uma ferramenta poderosa para manter sua independência e conexão com o mundo ao seu redor.
-
-Dona Maria não parou por aí. Ela decidiu compartilhar suas experiências e descobertas com outras pessoas que enfrentavam desafios semelhantes. Ela se juntou a grupos de apoio online e participou de fóruns de discussão sobre acessibilidade na internet para pessoas com deficiência visual.
-
-Com sua voz e experiência, Dona Maria ajudou a conscientizar a importância de projetar sites e aplicativos com acessibilidade em mente. Ela escreveu cartas para empresas, pedindo-lhes que considerassem as necessidades das pessoas com deficiência visual ao desenvolver suas plataformas online.
-
-Ao longo do tempo, Dona Maria viu uma mudança positiva acontecer. Mais e mais empresas começaram a implementar recursos de acessibilidade em seus produtos, tornando a internet um lugar mais inclusivo para pessoas como ela.
-
-Dona Maria percebeu que sua deficiência visual não a limitava, mas sim a impulsionava a encontrar soluções criativas e a fazer uma diferença real no mundo. Sua jornada inspiradora é um lembrete poderoso de que a tecnologia tem o poder de capacitar e conectar pessoas de todas as habilidades e idades.
+Porém, ao utilizar desses aplicativos, Dona Maria descobriu que a maior parte dos sites que ela frequentava não estavam preparados para utilizar esse tipo de tecnologia. Conversando com seu sobrinho Juninho, ele explicou que muitos sites não são programados utilizando-se de atributos *HTML* para acessibilidade, o que dificulta o uso desses leitores.
 
 ## Histórias de Usuários
 
