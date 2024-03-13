@@ -2,7 +2,7 @@
 
 Na abordagem da dificuldade de acesso a informações sobre programas sociais e assistência governamental, a **perspectiva do usuário** é fundamental para a definição do problema e a proposição de soluções eficazes. A elaboração dessa parte do documento segue uma metodologia estruturada, composta por elementos como o **diagrama de personas**, que retrata perfis fictícios representativos dos usuários, **histórias de usuários** que narram cenários específicos de interação com os sistemas, **requisitos funcionais e não funcionais** que delineiam as capacidades e características desejadas, além das **restrições do projeto** que impõem limites e direcionamentos.
 
-Essa abordagem centrada no usuário visa assegurar que as soluções propostas sejam eficientes, inclusivas e capazes de superar as barreiras que atualmente dificultam o acesso a esses serviços essenciais.
+Essa abordagem centrada no usuário visa assegurar que as soluções propostas sejam eficientes, trazendo inclusão digital capaz de superar as barreiras que atualmente dificultam o acesso a esses serviços essenciais.
 
 ## Personas
 
