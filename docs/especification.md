@@ -49,17 +49,20 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Administrador  | Fazer login no painel de administrador | Ter acesso a funções de administração |
+|Usuário do sistema  | Realizar pesquisas sobre informações de programas assistênciais | Encontrar as respostas da minha duvida |
+|Administrador  | Escrever uma base de conhecimento no painel de administrador | Trazer resultados nas pesquisa |
+|Usuário do sistema  | Poder ver Perguntas Frequentes (FAQ) | Encontrar as respostas da minha duvida |
+|Administrador  | Cadastrar as perguntas frequentes no painel de administrador | Atualizar as dúvidas frequentes de acordo com a demanda |
+|Usuário do sistema  | Entrar em contato por whatsapp num atendimento humanizado | Caso encontrar alguma dificuldade |
+|Usuário do sistema  | Encontrar o CRAS mais perto de mim | Poder ter um atendimento presencial |
+|Usuário do sistema  | Ver links confiáveis dos programas sociais | Evitar golpes e desinformação |
+|Usuário do sistema  | Ver noticias relevantes sobre programas governamentais | Ter acesso a informações atualizadas e verdadeiras |
+|Administrador  | Compilar noticias no painel de administrador | Serem consultados |
+|Usuário do sistema  | Me certificar através de relatos de outros usuários | Entender se o site cumpre o que promete |
+|Usuário do sistema  | Saber todos os benefícios que se adequam para mim | Ver o que eu tenho direito |
+|Usuário do sistema  | Ver um link fácil sobre como consultar o BPC | Aprender a fazer a consulta |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
