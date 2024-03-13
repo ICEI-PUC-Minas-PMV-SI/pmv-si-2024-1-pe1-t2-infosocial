@@ -31,16 +31,6 @@ Embora Dona Elsa estivesse aberta a novas tecnologias, ela lutava para encontrar
 
 Certa vez, Dona Elsa precisava renovar sua receita médica online. No entanto, ela passou horas tentando entender o processo, apenas para acabar frustrada e confusa. Ela sentia-se isolada e desamparada, incapaz de participar plenamente da era digital que envolvia todos ao seu redor.
 
-Mas ao invés de desistir, Dona Elsa decidiu enfrentar o desafio de frente. Ela começou a frequentar aulas de informática para idosos em seu centro comunitário local. Lá, ela encontrou outras pessoas que compartilhavam suas lutas e suas histórias. Juntos, eles formaram uma comunidade de apoio, ajudando-se mutuamente a superar obstáculos e a descobrir os segredos da internet.
-
-Com paciência e determinação, Dona Elsa gradualmente começou a dominar as habilidades necessárias para navegar na internet de forma independente. Ela aprendeu a ajustar o tamanho do texto em seu navegador, a usar atalhos de teclado e a reconhecer os sinais de segurança ao fazer compras online.
-
-Além disso, Dona Elsa tornou-se uma defensora apaixonada pela acessibilidade na internet para idosos. Ela escreveu cartas para empresas, pedindo-lhes que considerassem as necessidades das pessoas idosas ao projetar seus sites. Ela também se ofereceu para dar palestras em escolas locais e empresas sobre a importância de tornar a internet acessível para todos, independentemente da idade.
-
-Com o tempo, o esforço de Dona Elsa começou a render frutos. Mais e mais empresas começaram a implementar mudanças em seus sites para torná-los mais amigáveis para idosos. Dona Elsa viu sua própria jornada como uma prova de que nunca é tarde para aprender algo novo e que, com determinação e apoio, podemos superar qualquer obstáculo.
-
-Dona Elsa se tornou um modelo de inspiração para outros idosos em sua comunidade, mostrando-lhes que a idade não é uma barreira para a participação ativa na sociedade digital. Sua história é um lembrete poderoso de que, com perseverança e solidariedade, podemos construir um mundo onde todos tenham acesso igualitário à vasta riqueza de recursos que a internet tem a oferecer.
-
 ![dona Maria](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/fd94f3ca-f4e9-44f1-bcb3-06f5c55a33ba)
 
 Dona Maria, uma mulher de 70 anos, sempre foi uma pessoa ativa e interessada em aprender coisas novas. No entanto, nos últimos anos, ela enfrentou um desafio que testou sua determinação mais do que nunca: problemas de visão.
