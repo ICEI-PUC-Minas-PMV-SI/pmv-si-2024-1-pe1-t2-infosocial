@@ -46,6 +46,10 @@ Apesar de seus esforços e da ajuda do neto, Lurdes não conseguiu entender comp
 
 No final, Lurdes percebeu que, mesmo com sua determinação, algumas batalhas eram simplesmente além de sua capacidade atual, e infelizmente, acabou desistindo de ir atrás dos seus direitos.
 
+![seu-pedro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/02eae292-de77-4790-88f2-acc0d1956d90)
+
+O aposentado José Antônio Martinez, de 88 anos, faz parte desse grupo, que mudou a rotina com o distanciamento causado pela doença. “Devido às circunstâncias de que hoje se precisa do celular para tudo, sobretudo com a pandemia em que fiquei um ano em casa, percebi que precisava aprender a usar o aparelho”, afirma. 
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
