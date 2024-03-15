@@ -12,3 +12,5 @@ Acesso em: 15 Mar 2024
 
 **[3]** - USP, **Pesquisa tenta entender a complicada relação entre idosos e tecnologia**. Disponível em: (https://www5.usp.br/noticias/especial-2/pesquisa-tenta-entender-a-complicada-relacao-entre-idosos-e-tecnologia/)https://www5.usp.br/noticias/especial-2/pesquisa-tenta-entender-a-complicada-relacao-entre-idosos-e-tecnologia/).
 Acesso em: 15 Mar 2024
+
+**4**  Levantamento indica que 97% dos idosos brasileiros acessam a internet | CNN Brasil
