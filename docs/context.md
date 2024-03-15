@@ -6,6 +6,18 @@ Ademais, de acordo com a reportagem da Agência Brasil[1], recentemente, houvera
 
 ## Problema
 
+A população idosa no Brasil está crescendo rapidamente. De acordo com o IBGE (Instituto Brasileiro de Geografia e Estatística), em 2023, o país já conta com mais de 33 milhões de pessoas com 60 anos ou mais, o que representa cerca de 16% da população total. Essa parcela da população tende a aumentar ainda mais nas próximas décadas, o que torna a questão da inclusão digital dos idosos cada vez mais urgente. 
+
+No entanto, apesar do crescimento da população idosa, o acesso à internet entre esse grupo ainda é bastante limitado. Segundo a pesquisa TIC Domicílios 2022, realizada pelo CGI.br (Comitê Gestor da Internet no Brasil), apenas 41% dos idosos entre 60 e 69 anos usam a internet no Brasil. Esse número cai para 23% entre os idosos com 70 anos ou mais. 
+
+Em um mundo cada vez mais digital, a exclusão digital emerge como um problema social de grande magnitude, especialmente para a população idosa. Essa parcela da sociedade, muitas vezes, se encontra à margem da era digital, privada de ferramentas e recursos que podem melhorar consideravelmente sua qualidade de vida. 
+
+Um levantamento feito pela Confederação Nacional de Dirigentes Lojistas (CNDL) em parceria com o Serviço de Proteção ao Crédito (SPC) revela que houve um crescimento entre os brasileiros com mais de 60 anos que acessam a internet. O aumento foi de 68% em 2018 para 97% em 2021.   
+
+Entre os principais motivos que fazem a terceira idade se manter conectada estão a busca por notícias (64%), manter contato com a família (61%) e procurar informações sobre produtos e serviços (54%).  
+
+A pandemia de Covid-19 acelerou o acesso ao mundo digital. Segundo a pesquisadora da PUC Beltrina Côrte, o isolamento forçou os idosos a procurarem ajuda para navegarem pelo meio virtual, trazendo autonomia no dia a dia.[4]
+
 O cerne do problema que buscamos solucionar reside na dificuldade generalizada de acesso a informações cruciais sobre programas sociais e assistência governamental. Observa-se que muitos idosos enfrentam obstáculos ao tentar obter dados relevantes sobre os benefícios disponíveis, os critérios de elegibilidade e os procedimentos para acesso a esses programas. A dispersão dessas informações em diferentes fontes, a falta de uma plataforma centralizada e a carência de interfaces de usuários intuitivas contribuem para a confusão e a desinformação.
 
 O problema que este site visa resolver é a dificuldade que muitos idosos enfrentam ao tentar encontrar informações relevantes na sociedade. Isso pode ser devido a várias razões, como:
