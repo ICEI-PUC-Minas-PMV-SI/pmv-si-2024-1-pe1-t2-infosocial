@@ -8,11 +8,9 @@ Ademais, de acordo com a reportagem da Agência Brasil[1], recentemente, houvera
 
 A população idosa no Brasil está crescendo rapidamente. De acordo com o IBGE (Instituto Brasileiro de Geografia e Estatística), em 2023, o país já conta com mais de 33 milhões de pessoas com 60 anos ou mais, o que representa cerca de 16% da população total. Essa parcela da população tende a aumentar ainda mais nas próximas décadas, o que torna a questão da inclusão digital dos idosos cada vez mais urgente. 
 
-No entanto, apesar do crescimento da população idosa, o acesso à internet entre esse grupo ainda é bastante limitado. Segundo a pesquisa TIC Domicílios 2022, realizada pelo CGI.br (Comitê Gestor da Internet no Brasil), apenas 41% dos idosos entre 60 e 69 anos usam a internet no Brasil. Esse número cai para 23% entre os idosos com 70 anos ou mais. 
+Um levantamento feito pela Confederação Nacional de Dirigentes Lojistas (CNDL) em parceria com o Serviço de Proteção ao Crédito (SPC) revela que houve um crescimento entre os brasileiros com mais de 60 anos que acessam a internet. O aumento foi de 68% em 2018 para 97% em 2021.  
 
 Em um mundo cada vez mais digital, a exclusão digital emerge como um problema social de grande magnitude, especialmente para a população idosa. Essa parcela da sociedade, muitas vezes, se encontra à margem da era digital, privada de ferramentas e recursos que podem melhorar consideravelmente sua qualidade de vida. 
-
-Um levantamento feito pela Confederação Nacional de Dirigentes Lojistas (CNDL) em parceria com o Serviço de Proteção ao Crédito (SPC) revela que houve um crescimento entre os brasileiros com mais de 60 anos que acessam a internet. O aumento foi de 68% em 2018 para 97% em 2021.   
 
 Entre os principais motivos que fazem a terceira idade se manter conectada estão a busca por notícias (64%), manter contato com a família (61%) e procurar informações sobre produtos e serviços (54%).  
 
