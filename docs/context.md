@@ -38,7 +38,7 @@ Este site visa resolver esses problemas fornecendo uma plataforma simples e fác
 
 ## Justificativa
 
-A justificativa para o desenvolvimento deste site é que muitos idosos têm dificuldade em encontrar informações relevantes na sociedade. Isso pode ser devido a uma variedade de razões, incluindo a falta de familiaridade com a tecnologia ou a incapacidade de acessar recursos físicos. Ao fornecer um site simples e fácil de usar, podemos ajudar a preencher essa lacuna e permitir que os idosos acessem as informações de que precisam de maneira **conveniente** e **eficiente**
+A justificativa para o desenvolvimento desta aplicação reside na dificuldade enfrentada por muitos idosos em acessar informações pertinentes na sociedade atual, incluindo benefícios sociais destinados a este grupo demográfico. Estima-se que, nos próximos 80 anos, os idosos representarão cerca de 40% da população brasileira[2]. Pesquisas indicam que essa dificuldade pode ser atribuída a vários fatores. Por exemplo, uma pesquisa da USP revelou que 24% dos idosos têm medo de usar novas tecnologias e 40% temem danificar seus dispositivos[3]. Além disso, há uma falta de esforço para desenvolver recursos de acessibilidade. Diante desse cenário, é imperativo que essa parcela crescente da população receba atenção especial, com o desenvolvimento de aplicações acessíveis, simples e concisas. Isso ajudará a diminuir o hiato entre eles e as ferramentas modernas para resolver questões financeiras e burocráticas, melhorando assim sua qualidade de vida. Ao fornecer uma aplicação fácil de usar, podemos contribuir para preencher essa lacuna, permitindo que esse grupo acesse as informações necessárias de forma **conveniente** e **eficaz**.
 
 ## Público-Alvo
 
