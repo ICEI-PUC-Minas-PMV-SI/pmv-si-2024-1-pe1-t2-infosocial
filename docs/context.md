@@ -30,6 +30,39 @@ Este site visa resolver esses problemas fornecendo uma plataforma simples e fác
 
 ## Objetivos
 
+O site para idosos tem o potencial de transformar a vida de milhares de pessoas, promovendo a autonomia, o bem-estar e a inclusão digital. Através de um design acessível, informações confiáveis e ferramentas interativas, o projeto pode contribuir para que os idosos se sintam mais conectados, informados e seguros.
+
+**1. Acessibilidade e Segurança:**
+
+-   **Navegação Simples e Intuitiva:**
+    -   Layout claro e organizado, com menus e botões de fácil identificação.
+    -   Fonte ampliada e legível, com bom contraste.
+    -   Opção de narração de voz para auxiliar na navegação.
+    -   Minimizar o uso de termos técnicos e jargões, priorizando linguagem simples e direta.
+-   **Recursos de Acessibilidade:**
+    -   Compatibilidade com tecnologias assistivas, como leitores de tela e softwares de ampliação.
+    -   Teclas de atalho para facilitar a navegação.
+    -   Possibilidade de ajustar o tamanho da fonte e o contraste das cores.
+-   **Segurança da Informação:**
+    -   Proteção de dados pessoais e sigilo das informações.
+    -   Conteúdo confiável e verificado, com fontes oficiais e links seguros.
+    -   Ambiente virtual protegido contra golpes e fraudes.
+
+**2. Informações Governamentais:**
+
+-   **Acesso Facilitado a Serviços e Benefícios:**
+    -   Centralizar informações sobre programas sociais, aposentadoria, saúde, entre outros temas relevantes.
+    -   Guias passo a passo para solicitar serviços e benefícios, com linguagem simples e descomplicada.
+    -   Vídeos tutoriais e FAQs para auxiliar na compreensão dos processos.
+-   **Atualização Constante de Conteúdo:**
+    -   Notificações sobre novas leis, programas e benefícios.
+    -   Calendário de eventos e workshops sobre temas de interesse para idosos.
+    -   Blog com notícias e informações relevantes para a população idosa.
+-   **Contato Direto com Órgãos Governamentais:**
+    -   Canais de comunicação eficientes para dúvidas e solicitações.
+    -   Chat online com atendentes treinados para auxiliar os idosos.
+    -   Telefones e endereços de órgãos governamentais de forma clara e acessív
+
 ### Objetivos Gerais:
 
 1. Facilitar o Acesso à Informação: Desenvolver uma aplicação que torna mais fácil para os idosos encontrar as informações que precisam na sociedade.
