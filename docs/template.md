@@ -29,16 +29,6 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+Optamos por utilizar a biblioteca [FontAwesome](https://fontawesome.com/) para os ícones da aplicação. Dessa maneira, poderemos ter um foco maior de produtividade no desenvolvimento das telas.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/bbd56a57-21d7-4679-9b0a-6268666dbfa0)
