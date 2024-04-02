@@ -24,7 +24,10 @@ As seguintes cores foram utilizadas em nosso layout:
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+Decidimos por manter apenas a [fonte Inter](https://fonts.google.com/specimen/Inter?query=inter) como padrão para a aplicação, pois essa é uma fonte de facíl leitura, melhorando a acessbilidade do nosso site.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/0c5b5998-97f5-4994-8b1d-c3483bc72c07)
+
 
 
 ## Iconografia
