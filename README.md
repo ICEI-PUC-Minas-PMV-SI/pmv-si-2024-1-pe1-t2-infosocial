@@ -1,4 +1,6 @@
-# Título do Projeto
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/6d14cced-dc8b-4dca-ae92-04bb7c639d8a)
+
+# InfoSocial
 
 `CURSO: Sistemas de Informação`
 
