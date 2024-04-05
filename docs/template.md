@@ -6,7 +6,8 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+#### Landing Page
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/152e01dc-567b-441f-8975-a9de94cdf965)
 
 
 ## Cores
