@@ -90,6 +90,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve possuir uma interface de usuário amigável para o público idoso | ALTA | 
 |RNF-002| O sistema deve ser responsivo | ALTA | 
 |RNF-003| O sistema deve ser compatível com ferramentas de leitura de tela | ALTA | 
+|RNF-004| A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me)        |
+|RNF-005| A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações        |
+|RNF-006| A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização        |
 
 ## Restrições
 
@@ -99,6 +102,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me)        |
-|04| A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações        |
-|05| A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização        |
