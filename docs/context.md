@@ -4,6 +4,8 @@ Em meio a avanços tecnológicos e desafios sociais, surge a problemática da di
 
 Ademais, de acordo com a reportagem da Agência Brasil[1], recentemente, houveram muitos cortes no orçamento destinado ao Sistema Único de Assistência Social (SUAS), o que resultou em uma redução no atendimento presencial, levando as solicitações de benefícios a serem feitas cada vez mais por canais remotos. A problematização acontece, visto que principalmente para o público idoso, a falta de acessibilidade e layouts intuitivos o dificultam a ter proveito dos seus direitos.
 
+Dado esse cenário, pensamos em um projeto que implementasse uma aplicação que facilitasse esse acesso de forma mais simplificada, com um layout mais amigável que os que geralmente são disponibilizados, pensado para ser acessível de ponta-a-ponta, completo ao mesmo tempo que é intuitivo, seguro e atualizado sobre todos os benefícios sociais disponíveis para o usuário=o idoso, que poderá em poucos cliques saber quais são seus direitos, como reinvidicá-los, aonde e com quais documentos farão isso.
+
 ## Problema
 
 O cerne do problema que buscamos solucionar reside na dificuldade generalizada de acesso a informações cruciais sobre programas sociais e assistência governamental. Observa-se que muitos idosos enfrentam obstáculos ao tentar obter dados relevantes sobre os benefícios disponíveis, os critérios de elegibilidade e os procedimentos para acesso a esses programas. A dispersão dessas informações em diferentes fontes, a falta de uma plataforma centralizada e a carência de interfaces de usuários intuitivas contribuem para a confusão e a desinformação.
