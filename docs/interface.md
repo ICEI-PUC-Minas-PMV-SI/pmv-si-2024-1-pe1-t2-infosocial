@@ -75,7 +75,7 @@ A página detalhamento, também conhecida como "Detalhamento de Benefícios", de
 > - [RF-002] A aplicação deverá encaminhar para uma página detalhando o benefício escolhido
 > - [RF-006] A aplicação deve possuir um botão para entrar em contato por whatsapp.
 
-![detbenef](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/100433614/44b7aa87-60e3-4303-99c8-001b4eaadd67)
+![detbenef](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/100433614/64eff785-119b-493f-89ba-b9f2957614c1)
 
 ### Página Validar
 
