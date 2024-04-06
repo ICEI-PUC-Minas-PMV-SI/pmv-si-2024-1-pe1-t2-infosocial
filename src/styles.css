@@ -99,6 +99,10 @@ body {
   font-weight: bold;
 }
 
+.margin-1-rem {
+  margin-left: 1rem;
+}
+
 @media (max-width: 1024px) {
   #jumbotron-buttons {
     flex-direction: column;
