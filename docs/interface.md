@@ -1,11 +1,13 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Todo o nosso projeto totaliza em 5 telas, sendo elas: tela inicial, tela de benefícios, tela de detalhamento de benefícios, mapa do CRAS e tela de consulta de benefícios.  As telas foram criadas com o objetivo de auxiliar o idoso o encontrar o seu CRAS mais próximo e fazer consultas dos principais benefícios que o governo oferece para eles. 
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Pensando em nossos idosos, nossas telas foram desenvolvidas para eles, como o apoio total que a nossa tecnologia pode oferecer, ferramentas de pontas que vão auxiliar ao máxima o idosos a navegar pelo nosso site.
 
 ## User Flow
+
+Após a criação das telas, realizamos a montagem de um fluxo que contém todas as telas do sistema.
 
 ![Diagrama info social](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/0d40a562-b156-49e3-9668-fb593fb55fad)
 
