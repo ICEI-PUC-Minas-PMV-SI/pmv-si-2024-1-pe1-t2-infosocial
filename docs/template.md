@@ -1,8 +1,15 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+### Versão desktop
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/11bb2179-15a5-46d2-b96a-8096b049b6f0)
 
-Explique as guias de estilo utilizadas no seu projeto.
+### Versão mobile
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/ec485633-2e49-4869-b156-61602fae11ef)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/c8313ed0-60d2-4131-a328-e1f42a2ff106)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/68dd16a2-e31a-434d-b3d0-87ef5d0bb358)
+
+
+
 
 ## Design
 
