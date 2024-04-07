@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-Todo o nosso projeto totaliza em 5 telas, sendo elas: tela inicial, tela de benefícios, tela de detalhamento de benefícios, mapa do CRAS e tela de consulta de benefícios.  As telas foram criadas com o objetivo de auxiliar o idoso o encontrar o seu CRAS mais próximo e fazer consultas dos principais benefícios que o governo oferece para eles. 
+Todo o nosso projeto totaliza em 5 telas, sendo elas: tela inicial, tela de benefícios, tela de detalhamento de benefícios, mapa do CRAS e tela de consulta de benefícios.  As telas foram criadas com o objetivo de auxiliar o idoso a encontrar o seu CRAS mais próximo e fazer consultas dos principais benefícios que o governo oferece para eles. 
 
 Pensando em nossos idosos, nossas telas foram desenvolvidas para eles, como o apoio total que a nossa tecnologia pode oferecer, ferramentas de pontas que vão auxiliar ao máxima o idosos a navegar pelo nosso site.
 
