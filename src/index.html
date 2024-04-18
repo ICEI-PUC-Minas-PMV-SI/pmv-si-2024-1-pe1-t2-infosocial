@@ -17,9 +17,10 @@
     <title>InfoSocial</title>
   </head>
   <body>
-    <a href="">
-      <img src="assets/WhatsApp-icone.png" width="100" class="fixed-bottom button-whatsapp">
+    <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
+      <img src="assets/WhatsApp-icone.png">
     </a>
+
     <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="./assets/logo.svg" width="200">
@@ -30,8 +31,11 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#">Início <span class="sr-only">(Página atual)</span></a>
-          <a class="nav-item nav-link" href="#">Benefícios</a>
-          <a class="nav-item nav-link" href="#">Sobre</a>
+          <a class="nav-item nav-link" href="#beneficios">Benefícios</a>
+          <a class="nav-item nav-link" href="#noticias">Notícias</a>
+          <a class="nav-item nav-link" href="#sobre">Sobre</a>
+          <a class="nav-item nav-link" href="#faq">FAQ</a>
+          <a class="nav-item nav-link" href="#duvidas">Dúvidas</a>
         </div>
       </div>
       <form class="form-inline">
@@ -86,12 +90,12 @@
       <!-- cards -->
       <div class="row mt-2 mb-3">
         <div class="col-12 col-sm-12 col-lg-6 col-lg-6 mb-2">
-          <a href="">
+          <a target="_blank" href="https://globoplay.globo.com/v/12485321/">
             <div class="card">
-              <img src="https://source.unsplash.com/random/900x350?x=4" class="card-img-top" alt="...">
+              <img src="https://s02.video.glbimg.com/x360/12485321.jpg" class="card-img-top">
               <div class="card-body">
-                <h1 class="card-title">Card title</h1>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h1 class="card-title">Advogado fala sobre como garantir os direitos dos idosos</h1>
+                <p class="card-text">Veja quais são os principais e o que fazer caso não seja cumprido.</p>
               </div>
             </div>
           </a>
@@ -134,7 +138,7 @@
     <!-- cards -->
 
     <!-- sobre nos -->
-    <section id="noticias" class="container default-section-template">
+    <section id="sobre" class="container default-section-template">
       <hr class="featurette-divider">
       <h1 class="mb-5">Sobre <span class="color-primary">Nós</span></h1>
       <div class="container marketing">
@@ -144,7 +148,7 @@
             <p class="lead">Este site visa resolver esses problemas fornecendo uma plataforma simples e fácil de usar onde os idosos podem facilmente encontrar as informações de que precisam, incluindo informações sobre benefícios do governo. Além disso, o site será projetado com uma interface amigável e intuitiva para tornar a navegação e o uso do site o mais fácil possível para os idosos.</p>
           </div>
           <div class="col-md-5">
-             <img id="img-sobre" src="meninoBorboleta-1.png" alt="">
+             <img id="img-sobre" src="./assets/meninoBorboleta-1.png" alt="">
           </div>
         </div>
         <hr class="featurette-divider">
@@ -153,7 +157,7 @@
     <!-- sobre nos -->
 
     <!-- perguntas frequentes -->
-    <section id="noticias" class="container default-section-template">
+    <section id="faq" class="container default-section-template">
       <h1 class="mb-5">Perguntas <span class="color-primary">Frequentes</span></h1>
       <div id="accordion">
         <div class="card">
@@ -204,7 +208,7 @@
   <!-- perguntas frequentes -->
 
   <!-- form -->
-  <section id="noticias" class="container default-section-template">
+  <section id="duvidas" class="container default-section-template">
     <h1 class="mb-5">Mande sua <span class="color-primary">dúvida</span></h1>
     <form>
       <label for="exampleFormControlInput1">Nome Completo:</label>
@@ -225,10 +229,39 @@
     </form>
   </section>
   <!-- form -->
-    <footer>
-      <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cumque reiciendis sit dolor laboriosam. Obcaecati, assumenda fugiat, deserunt, animi numquam aliquid eius iure amet fugit harum dolore cumque iusto similique.</p>
-    </footer>
-    <!-- card noticia -->
+
+  <footer id="footer">
+    <div class="footer-content">
+      <p class="slogan-footer">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e completa.</p>
+
+    <div class="footer-links">
+      <h1>Links</h1>
+      <a href="#">Início <span class="sr-only">(Página atual)</span></a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#faq">FAQ</a>
+      <a href="#duvidas">Dúvidas</a>
+    </div>
+
+    <div class="footer-links">
+      <h1>Contato</h1>
+      <p>Telefone: 190</p>
+      <p>E-mail: contato@infosocial.com.br</p>
+    </div>
+
+
+    </div>
+
+    
+    <hr />
+
+    <p class="copy">
+      &copy; 2024 Info Social - Todos os direitos reservados
+    </p>
+  </footer>
+
+
     <!-- external libs -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
