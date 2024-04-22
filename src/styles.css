@@ -280,20 +280,71 @@ label {
     font-size: 50px;
   }
 
+  .imgJumbotron {
+    width: 100% !important;
+  }
+
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
+
+  .imgJumbotron {
+    width: 100% !important;
+  }
+  
 }
 
-#lista-01 {
-  background-image: url(assets/guai\ de\ cuidados\ para\ pessoas\ idosa.png);
+/* lista da cards Pricipais beneficios  */
+
+.background-button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#button01 {
+  background-image: url(assets/educacaoParaIdosos.png);
+
+}
+
+
+#button02 {
+  background-image: url(assets/saudeParaIdosos.png);
+
+}
+
+#button03 {
+  background-image: url(assets/IsencaoImpostoRenda.png);
+
+}
+
+#button04 {
+  background-image: url(assets/beneficioPrestacaoContinuada.png);
+
+}
+
+#button05 {
+  background-image: url(assets/insecaoIPTU.png);
+
+}
+
+#button06 {
+  background-image: url(assets/gratuidadeNoTransportePublico.png);
+
+}
+
+#jumbotronPassagem {
+  background-image: url(assets/backgroundPassagem.png) !important;
+}
+
+.imgJumbotron {
+  width: 300px;
+}
+
+
 
 
 
