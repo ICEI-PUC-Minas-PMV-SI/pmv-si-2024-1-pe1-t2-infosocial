@@ -14,6 +14,10 @@ body {
   background-color: var(--white) !important;
 }
 
+#text-aling-item {
+  align-items: center !important;
+}
+
 #navbar-global {
   background-color: var(--white) !important;
 }
@@ -73,6 +77,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 .color-primary {
@@ -153,6 +158,10 @@ body {
 
 #img-sobre {
   width: 100%;
+}
+
+#imgHomemTrabalhando {
+  width: 60% !important;
 }
 
 #duvidas form {
@@ -284,6 +293,14 @@ label {
     width: 100% !important;
   }
 
+  #imgHomemTrabalhando {
+    width: 60% !important;
+  }
+
+  .default-section-template h1 {
+    font-size: 3rem;
+  }
+
 }
 
 @media (min-width: 62em) {
@@ -332,7 +349,7 @@ label {
 }
 
 #button06 {
-  background-image: url(assets/gratuidadeNoTransportePublico.png);
+  background-image: url(assets/atendimentoPreferecial.png);
 
 }
 
@@ -340,9 +357,16 @@ label {
   background-image: url(assets/backgroundPassagem.png) !important;
 }
 
+#jumbotronWhite {
+  background: white;
+}
+
 .imgJumbotron {
   width: 300px;
+  border-radius: 10px;
 }
+
+
 
 
 
