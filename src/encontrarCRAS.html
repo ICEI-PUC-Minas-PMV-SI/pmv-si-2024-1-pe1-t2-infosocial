@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- google font inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- our styles -->
+  <link rel="stylesheet" href="./styles.css">
+  <title>InfoSocial</title>
+</head>
+
+<body>
+  <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
+    <img src="assets/WhatsApp-icone.png">
+  </a>
+
+  <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/logo.svg" width="200">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Início <span class="sr-only">(Página atual)</span></a>
+        <a class="nav-item nav-link" href="#beneficios">Benefícios</a>
+        <a class="nav-item nav-link" href="#noticias">Notícias</a>
+        <a class="nav-item nav-link" href="#sobre">Sobre</a>
+        <a class="nav-item nav-link" href="#faq">FAQ</a>
+        <a class="nav-item nav-link" href="#duvidas">Dúvidas</a>
+      </div>
+    </div>
+    <form class="form-inline">
+      <button class="btn btn-primary my-2 my-sm-0">Encontrar um CRAS</button>
+    </form>
+  </nav>
+
+  <div class="container-map flex-map">
+    <h1 class="h1-map">Encontre aqui o CRAS mais próximo de você</h1>
+    <div class="item1">
+      <form>
+        <div class="form-group">
+          <label for="CEP">CEP:</label>
+          <input type="CEP" class="form-control" id="CEP" aria-describedby="CEP" placeholder="Informe o seu CEP">
+          <small id="" class="form-text text-muted">Ex: 4499-0000</small>
+        </div>
+        <div class="form-group">
+          <label for="Rua">Rua:</label>
+          <input type="rua" class="form-control" id="Rua" aria-describedby="" placeholder="Informe o nome da sua rua">
+          <small id="" class="form-text text-muted">Ex: Rua. Dr. Aurelino Alves Barreto</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+    </div>
+    <div class="item2">
+      <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+            var setting = {"query":"Rua Dom R - Jardim California, Barretos - SP, Brasil","width":975,"height":600,"satellite":false,"zoom":12,"placeId":"EjpSLiBEb20gUiAtIEphcmRpbSBDYWxpZm9ybmlhLCBCYXJyZXRvcyAtIFNQLCAxNDc4MSwgQnJhemlsIi4qLAoUChIJBb62YtKEu5QR_bq1ETuNmdkSFAoSCfM7Y0Atm7uUEfTD5NXh9Cqn","cid":"0xd9998d3b11b5bafd","coords":[-20.5351355,-48.5613116],"cityUrl":"/brazil/barretos-42933","cityAnchorText":"Mapa de Barretos, Sao Paulo, Brasil","lang":"pt","queryString":"Rua Dom R - Jardim California, Barretos - SP, Brasil","centerCoord":[-20.5351355,-48.5613116],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1102829"};
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=1102829';
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+          })();</script><a href="https://1map.com/pt/map-embed">1 Map</a></div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="footer-content">
+      <p class="slogan-footer">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e
+        completa.</p>
+
+      <div class="footer-links">
+        <h1>Links</h1>
+        <a href="#">Início <span class="sr-only">(Página atual)</span></a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">FAQ</a>
+        <a href="#duvidas">Dúvidas</a>
+      </div>
+
+      <div class="footer-links">
+        <h1>Contato</h1>
+        <p>Telefone: 190</p>
+        <p>E-mail: contato@infosocial.com.br</p>
+      </div>
+
+
+    </div>
+
+
+    <hr />
+
+    <p class="copy">
+      &copy; 2024 Info Social - Todos os direitos reservados
+    </p>
+  </footer>
+
+  <!-- test -->
+  <!-- external libs -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3cde837431.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

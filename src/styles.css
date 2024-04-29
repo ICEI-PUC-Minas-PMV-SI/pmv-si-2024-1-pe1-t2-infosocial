@@ -301,6 +301,10 @@ label {
     font-size: 3rem;
   }
 
+  .map {
+    height: 132vh !important;
+}
+
 }
 
 @media (min-width: 62em) {
@@ -311,6 +315,21 @@ label {
   .imgJumbotron {
     width: 100% !important;
   }
+
+  .map {
+    height: 132vh !important;
+}
+
+.flex-map {
+  display: flex;
+  width: 100vh;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.item2 {
+  margin: 0px !important;
+}
   
 }
 
@@ -367,6 +386,55 @@ label {
 }
 
 
+main {
+  text-align: center;
+  height: 100vh;
+}
+
+main > h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#container-map {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#cep {
+  width: 30%;
+}
+
+#map {
+  width: 50%;
+}
+
+
+#main div:nth-of-type(2) {
+  flex-basis: 100%;
+}
+.container-map {
+  margin: 0 auto;
+}
+.flex-map {
+  display: block;
+}
+
+.h1-map {
+  width: 100%;
+  text-align: center;
+  margin: 50px 0px 50px;
+}
+.item1 {
+  width: 99%;
+  margin: 5px;
+}
+.item2 {
+  width: 100%;
+  margin: 8px;
+}
 
 
 
