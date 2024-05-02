@@ -1,121 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- google font inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- our styles -->
-    <link rel="stylesheet" href="../styles.css">
+  <!-- google font inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
-    <title>InfoSocial</title>
-  </head>
-  <body>
-    <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
-      <img src="../assets/WhatsApp-icone.png">
+  <!-- our styles -->
+  <link rel="stylesheet" href="../styles.css">
+
+  <title>InfoSocial</title>
+</head>
+
+<body>
+  <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
+    <img src="../assets/WhatsApp-icone.png">
+  </a>
+
+  <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+      <img src="../assets/logo.svg" width="200">
     </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="../index.html" target="_parent">Início <span class="sr-only">(Página
+            atual)</span></a>
+        <a class="nav-item nav-link" href="#beneficios">Benefícios</a>
+        <a class="nav-item nav-link" href="#noticias">Notícias</a>
+        <a class="nav-item nav-link" href="#sobre">Sobre</a>
+        <a class="nav-item nav-link" href="#faq">FAQ</a>
+        <a class="nav-item nav-link" href="#duvidas">Dúvidas</a>
+      </div>
+    </div>
+    <form class="form-inline">
+      <button class="btn btn-primary my-2 my-sm-0">Encontrar um CRAS</button>
+    </form>
+  </nav>
 
-    <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="../assets/logo.svg" width="200">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="../index.html" target="_parent">Início <span class="sr-only">(Página atual)</span></a>
-          <a class="nav-item nav-link" href="#beneficios">Benefícios</a>
-          <a class="nav-item nav-link" href="#noticias">Notícias</a>
-          <a class="nav-item nav-link" href="#sobre">Sobre</a>
-          <a class="nav-item nav-link" href="#faq">FAQ</a>
-          <a class="nav-item nav-link" href="#duvidas">Dúvidas</a>
+  <div class="jumbotron" id="jumbotronWhite">
+
+    <div class="container">
+
+      <h1 class="lead display-4 mt-5 mb-5">Atendimento Preferencial</h1>
+
+      <div class="row align-items-start">
+        <div class="col">
+          <img src="../assets/img atendimentoPreferencial/01.png" alt="" class="imgJumbotron">
+        </div>
+        <div class="col">
+          <img src="../assets/img atendimentoPreferencial/02.png" alt="" class="imgJumbotron">
         </div>
       </div>
-      <form class="form-inline">
-        <button class="btn btn-primary my-2 my-sm-0">Encontrar um CRAS</button>
-      </form>
-    </nav>
 
-    <div class="jumbotron" id="jumbotronWhite">
+    </div>
+  </div>
 
-      <div class="container">
-        
-        <h1 class="lead display-4 mt-5 mb-5">Atendimento Preferencial</h1>
+  <section id="beneficios container" class="default-section-template">
+    <hr class="my-4">
+    <div class="container">
+      <div class="p-5" id="">
+        <h1 class="display-4">Como funciona a prioridade no atendimento dos idosos?</h1>
+        <br>
+        <p class="lead">Provavelmente você já ouviu falar que o idoso possui direito ao atendimento preferencial, mas
+          quais são os limites e as garantias que esse direito deve efetivamente respeitar?</p>
+        <p class="lead">Primeiramente cabe uma análise das normas que sustentam esse direito ao atendimento
+          preferencial, na esfera federal duas leis são os pilares dessa garantia, o Estatuto do Idoso e a Lei 10.048,
+          vejamos:</p>
+        <p class="lead">Estatuto do Idoso : Art. 3º É obrigação da família, da comunidade, da sociedade e do Poder
+          Público assegurar ao idoso, com absoluta prioridade, a efetivação do direito à vida, à saúde, à alimentação, à
+          educação, à cultura, ao esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à
+          convivência familiar e comunitária.</p>
+        <p class="lead text-primary">A garantia de prioridade compreende:</p>
+        <p class="lead">atendimento preferencial imediato e individualizado junto aos órgãos públicos e privados
+          prestadores de serviços à população;</p>
+        <p class="lead">Lei 10.048 : Art. 1º As pessoas com deficiência, os idosos com idade igual ou superior a 60
+          (sessenta) anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos terão atendimento
+          prioritário, nos termos desta Lei.</p>
+        <p class="lead text-primary">No estado de São Paulo, existe regulamentação específica para o atendimento
+          preferencial desde 1992, conforme a Lei 11.248/92:</p>
+        <p class="lead">Art. 1º Todos os estabelecimentos comerciais, de serviço e similares no Município de São Paulo
+          darão atendimento preferencial e prioritário a gestantes, mães com crianças de colo, idosos e pessoas
+          portadoras de deficiências.</p>
+        <p class="lead">1º A preferência e a prioridade estabelecidas no "caput" compreendem a não sujeição a filas
+          comuns, além de outras medidas que tornem ágil e fácil o atendimento e a prestação do serviço.</p>
+        <p class="lead">2º No caso de serviços bancários o direito assegurado pela presente Lei aplica-se
+          indistintamente a clientes ou não de serviços da agência bancária.</p>
+        <p class="lead">Além disso, a mesma lei prevê que os estabelecimentos são obrigados a manter, em local visível
+          de suas dependências, placas que identifiquem, por exemplo, o caixa de atendimento preferencial.</p>
+        <p class="lead">Percebe-se que a legislação foi clara ao destacar que os idosos possuem direito ao atendimento
+          preferencial tanto em órgãos públicos, privados, agências financeiras, bancos e demais estabelecimentos.</p>
+        <p class="lead">Porém, diariamente nos deparamos com situação em que o idoso é posto no fim da fila, os caixas
+          preferenciais estão desativados e o idoso é obrigado a enfrentar a longa fila não preferencial, dentre outras
+          violações. O que fazer nessas situações?</p>
+        <p class="lead">Diante dessa situação de violação de direito, os idosos podem denunciar o estabelecimento ao
+          PROCON, o qual aplicará multas, que poderão ser dobradas em caso de reincidência e sanções mais sérias a
+          depender do caso específico como o fechamento de unidade ou interdição de programa.</p>
+        <p class="lead">Portanto, o direito ao atendimento prioritário e a fila preferencial é garantia legal do idoso e
+          o seu descumprimento gerará penalidades, procure consultar um advogado para lhe auxiliar a garantir a justiça
+          no seu caso.</p>
+        <p class="lead">Se esse artigo esclareceu sua dúvida, não se esqueça de comentar e indicá-lo para outras
+          pessoas.</p>
 
-        <div class="row align-items-start">
-          <div  class="col">
-            <img src="../assets/img atendimentoPreferencial/01.png" alt="" class="imgJumbotron">
-          </div>
-          <div class="col">
-            <img src="../assets/img atendimentoPreferencial/02.png" alt="" class="imgJumbotron">
-          </div>
-        </div>
-        
       </div>
-    </div> 
-
-    <section id="beneficios container" class="default-section-template"> 
-      <hr class="my-4">   
-      <div class="container">
-        <div class="p-5" id="" >
-          <h1 class="display-4">Como funciona a prioridade no atendimento dos idosos?</h1>
-          <br>  
-          <p class="lead">Provavelmente você já ouviu falar que o idoso possui direito ao atendimento preferencial, mas quais são os limites e as garantias que esse direito deve efetivamente respeitar?</p>
-          <p class="lead">Primeiramente cabe uma análise das normas que sustentam esse direito ao atendimento preferencial, na esfera federal duas leis são os pilares dessa garantia, o Estatuto do Idoso e a Lei 10.048, vejamos:</p>
-          <p class="lead">Estatuto do Idoso : Art. 3º É obrigação da família, da comunidade, da sociedade e do Poder Público assegurar ao idoso, com absoluta prioridade, a efetivação do direito à vida, à saúde, à alimentação, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à convivência familiar e comunitária.</p>
-          <p class="lead text-primary">A garantia de prioridade compreende:</p>
-          <p class="lead">atendimento preferencial imediato e individualizado junto aos órgãos públicos e privados prestadores de serviços à população;</p>
-          <p class="lead">Lei 10.048 : Art. 1º As pessoas com deficiência, os idosos com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos terão atendimento prioritário, nos termos desta Lei.</p>
-          <p class="lead text-primary">No estado de São Paulo, existe regulamentação específica para o atendimento preferencial desde 1992, conforme a Lei 11.248/92:</p>
-          <p class="lead">Art. 1º Todos os estabelecimentos comerciais, de serviço e similares no Município de São Paulo darão atendimento preferencial e prioritário a gestantes, mães com crianças de colo, idosos e pessoas portadoras de deficiências.</p>
-          <p class="lead">1º A preferência e a prioridade estabelecidas no "caput" compreendem a não sujeição a filas comuns, além de outras medidas que tornem ágil e fácil o atendimento e a prestação do serviço.</p>
-          <p class="lead">2º No caso de serviços bancários o direito assegurado pela presente Lei aplica-se indistintamente a clientes ou não de serviços da agência bancária.</p>
-          <p class="lead">Além disso, a mesma lei prevê que os estabelecimentos são obrigados a manter, em local visível de suas dependências, placas que identifiquem, por exemplo, o caixa de atendimento preferencial.</p>
-          <p class="lead">Percebe-se que a legislação foi clara ao destacar que os idosos possuem direito ao atendimento preferencial tanto em órgãos públicos, privados, agências financeiras, bancos e demais estabelecimentos.</p>
-          <p class="lead">Porém, diariamente nos deparamos com situação em que o idoso é posto no fim da fila, os caixas preferenciais estão desativados e o idoso é obrigado a enfrentar a longa fila não preferencial, dentre outras violações. O que fazer nessas situações?</p>
-          <p class="lead">Diante dessa situação de violação de direito, os idosos podem denunciar o estabelecimento ao PROCON, o qual aplicará multas, que poderão ser dobradas em caso de reincidência e sanções mais sérias a depender do caso específico como o fechamento de unidade ou interdição de programa.</p>
-          <p class="lead">Portanto, o direito ao atendimento prioritário e a fila preferencial é garantia legal do idoso e o seu descumprimento gerará penalidades, procure consultar um advogado para lhe auxiliar a garantir a justiça no seu caso.</p>
-          <p class="lead">Se esse artigo esclareceu sua dúvida, não se esqueça de comentar e indicá-lo para outras pessoas.</p>
-
-        </div>
-      </div>  
-      <hr class="my-4"> 
-      <p class="slogan-footer"><a href="https://www.jusbrasil.com.br/artigos/como-funciona-a-prioridade-no-atendimento-dos-idosos/1528973190">Fonte aqui</a></p>
-      <hr class="my-4">   
-    </section>
+    </div>
+    <hr class="my-4">
+    <p class="slogan-footer"><a
+        href="https://www.jusbrasil.com.br/artigos/como-funciona-a-prioridade-no-atendimento-dos-idosos/1528973190">Fonte
+        aqui</a></p>
+    <hr class="my-4">
+  </section>
 
   <footer id="footer">
     <div class="footer-content">
-      <p class="slogan-footer">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e completa.</p>
+      <p class="slogan-footer">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e
+        completa.</p>
 
-    <div class="footer-links">
-      <h1>Links</h1>
-      <a href="#">Início <span class="sr-only">(Página atual)</span></a>
-      <a href="#beneficios">Benefícios</a>
-      <a href="#noticias">Notícias</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#faq">FAQ</a>
-      <a href="#duvidas">Dúvidas</a>
+      <div class="footer-links">
+        <h1>Links</h1>
+        <a href="#">Início <span class="sr-only">(Página atual)</span></a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">FAQ</a>
+        <a href="#duvidas">Dúvidas</a>
+      </div>
+
+      <div class="footer-links">
+        <h1>Contato</h1>
+        <p>Telefone: 190</p>
+        <p>E-mail: contato@infosocial.com.br</p>
+      </div>
+
+
     </div>
 
-    <div class="footer-links">
-      <h1>Contato</h1>
-      <p>Telefone: 190</p>
-      <p>E-mail: contato@infosocial.com.br</p>
-    </div>
 
-
-    </div>
-
-    
     <hr />
 
     <p class="copy">
@@ -123,11 +154,18 @@
     </p>
   </footer>
 
-    <!-- test -->
-    <!-- external libs -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3cde837431.js" crossorigin="anonymous"></script>
-  </body>
+  <!-- test -->
+  <!-- external libs -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3cde837431.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

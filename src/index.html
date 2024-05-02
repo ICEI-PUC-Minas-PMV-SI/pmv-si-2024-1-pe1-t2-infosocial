@@ -1,209 +1,242 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- google font inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- our styles -->
-    <link rel="stylesheet" href="./styles.css">
-    <title>InfoSocial</title>
-  </head>
-  <body>
-    <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
-      <img src="assets/WhatsApp-icone.png">
+  <!-- google font inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- our styles -->
+  <link rel="stylesheet" href="./styles.css">
+  <title>InfoSocial</title>
+</head>
+
+<body>
+  <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
+    <img src="assets/WhatsApp-icone.png">
+  </a>
+
+  <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+      <img src="./assets/logo.svg" width="200">
     </a>
-
-    <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="./assets/logo.svg" width="200">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Início <span class="sr-only">(Página atual)</span></a>
-          <a class="nav-item nav-link" href="#beneficios">Benefícios</a>
-          <a class="nav-item nav-link" href="#noticias">Notícias</a>
-          <a class="nav-item nav-link" href="#sobre">Sobre</a>
-          <a class="nav-item nav-link" href="#faq">FAQ</a>
-          <a class="nav-item nav-link" href="#duvidas">Dúvidas</a>
-        </div>
-      </div>
-      <form class="form-inline">
-        <a class="btn btn-primary my-2 my-sm-0" href="encontrarCRAS.html">Encontrar um CRAS</a>
-      </form>
-    </nav>
-
-    <div class="jumbotron">
-      <h1 class="display-4" id="h1-bem-vindo">Bem-vindo ao InfoSocial</h1>
-      <p class="lead">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e completa</p>
-      <div id="jumbotron-buttons" class="d-flex justify-content-center">
-        <a class="btn btn-secondary btn-lg" href="#" role="button"><span class="text-button">Serviços</span></a>
-        <a class="btn btn-secondary btn-lg" href="#" role="button"><span class="text-button">CRAS</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#beneficios">Benefícios</a>
+        <a class="nav-item nav-link" href="#noticias">Notícias</a>
+        <a class="nav-item nav-link" href="#sobre">Sobre</a>
+        <a class="nav-item nav-link" href="#faq">FAQ</a>
+        <a class="nav-item nav-link" href="#duvidas">Dúvidas</a>
       </div>
     </div>
+    <form class="form-inline">
+      <a class="btn btn-primary my-2 my-sm-0" href="encontrarCRAS.html">Encontrar um CRAS</a>
+    </form>
+  </nav>
 
-    <section id="beneficios" class="default-section-template"> 
-      <div class="container">
-        <h1>Principais <span class="color-primary">benefícios</span></h1>
-        <p class="text-center lead mt-3 mb-5">
-          Encontre aqui sua lista dos principais benefícios que escolhemos para você
-        </p>
-        <!-- cards -->
-        <div class="row">
-          <div class="col-md-6 mt-2 listaCards">
-            <a class="btn btn-lg beneficios-button background-button" id="button01" href="beneficios/passagemGratuita.html" target="_parent" role="button"></a>
-          </div>
-          <div class="col-md-6 mt-2 listaCards">
-            <a class="btn btn-lg beneficios-button background-button" id="button02" href="beneficios/remedioGratuito.html" role="button"></a>
-          </div>
-          <div class="col-md-6 mt-2 listaCards">
-            <a class="btn btn-lg beneficios-button background-button" id="button03" href="beneficios/isencaoImposto.html" role="button"></a>
-          </div>
-          <div class="col-md-6 mt-2 listaCards">
-            <a class="btn btn-lg beneficios-button background-button" id="button04" href="beneficios/bpc.html" role="button"></a>
-          </div>
-          <div class="col-md-6 mt-2 listaCards" id="lista-01">
-            <a class="btn btn-lg beneficios-button background-button" id="button05" href="beneficios/isencaoIPTU.html" role="button"></a>
-          </div>
-          <div class="col-md-6 mt-2 listaCards">
-            <a class="btn btn-lg beneficios-button background-button" id="button06" href="beneficios/atendimentoPreferencial.html" role="button"></a>
-          </div>
-        </div>
-        <!-- cards -->
-      </div>
-    </section>
+  <div class="jumbotron">
+    <h1 class="display-4" id="h1-bem-vindo">Bem-vindo ao InfoSocial</h1>
+    <p class="lead">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e completa</p>
+    <div id="jumbotron-buttons" class="d-flex justify-content-center">
+      <a class="btn btn-secondary btn-lg" href="#" role="button"><span class="text-button">Serviços</span></a>
+      <a class="btn btn-secondary btn-lg" href="#" role="button"><span class="text-button">CRAS</span></a>
+    </div>
+  </div>
 
-    <!-- card noticia -->
-    <section id="noticias" class="container default-section-template">
-      <h1 class="mb-5 mt-5">Principais <span class="color-primary">Notícias</span></h1>
+  <section id="beneficios" class="default-section-template">
+    <div class="container">
+      <h1>Principais <span class="color-primary">benefícios</span></h1>
+      <p class="text-center lead mt-3 mb-5">
+        Encontre aqui sua lista dos principais benefícios que escolhemos para você
+      </p>
       <!-- cards -->
-      <div class="row mt-2 mb-3">
-        <div class="col-12 col-sm-12 col-lg-6 col-lg-6 mb-2">
-          <a target="_blank" href="https://globoplay.globo.com/v/12485321/">
-            <div class="card">
-              <img src="https://s02.video.glbimg.com/x360/12485321.jpg" class="card-img-top">
-              <div class="card-body">
-                <h1 class="card-title">Advogado fala sobre como garantir os direitos dos idosos</h1>
-                <p class="card-text">Veja quais são os principais e o que fazer caso não seja cumprido.</p>
-              </div>
-            </div>
-          </a>
-          </div>
-        <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
-          <a href="">
-            <div class="card">
-              <img src="https://source.unsplash.com/random/900x350?x=5" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h1 class="card-title">Card title</h1>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </a>
+      <div class="row">
+        <div class="col-md-6 mt-2 listaCards">
+          <a class="btn btn-lg beneficios-button background-button" id="button01"
+            href="beneficios/passagemGratuita.html" target="_parent" role="button"></a>
         </div>
-        <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
-          <a href="">
-            <div class="card">
-              <img src="https://source.unsplash.com/random/900x350?x=6" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h1 class="card-title">Card title</h1>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </a>
+        <div class="col-md-6 mt-2 listaCards">
+          <a class="btn btn-lg beneficios-button background-button" id="button02" href="beneficios/remedioGratuito.html"
+            role="button"></a>
         </div>
-        <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
-          <a href="">
-            <div class="card">
-              <img src="https://source.unsplash.com/random/900x350?x=7" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h1 class="card-title">Card title</h1>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </a>
+        <div class="col-md-6 mt-2 listaCards">
+          <a class="btn btn-lg beneficios-button background-button" id="button03" href="beneficios/isencaoImposto.html"
+            role="button"></a>
+        </div>
+        <div class="col-md-6 mt-2 listaCards">
+          <a class="btn btn-lg beneficios-button background-button" id="button04" href="beneficios/bpc.html"
+            role="button"></a>
+        </div>
+        <div class="col-md-6 mt-2 listaCards" id="lista-01">
+          <a class="btn btn-lg beneficios-button background-button" id="button05" href="beneficios/isencaoIPTU.html"
+            role="button"></a>
+        </div>
+        <div class="col-md-6 mt-2 listaCards">
+          <a class="btn btn-lg beneficios-button background-button" id="button06"
+            href="beneficios/atendimentoPreferencial.html" role="button"></a>
         </div>
       </div>
-    </section>
+      <!-- cards -->
+    </div>
+  </section>
+
+  <!-- card noticia -->
+  <section id="noticias" class="container default-section-template">
+    <h1 class="mb-5 mt-5">Principais <span class="color-primary">Notícias</span></h1>
     <!-- cards -->
+    <div class="row mt-2 mb-3">
+      <div class="col-12 col-sm-12 col-lg-6 col-lg-6 mb-2">
+        <a target="_blank" href="https://globoplay.globo.com/v/12485321/">
+          <div class="card">
+            <img src="https://s02.video.glbimg.com/x360/12485321.jpg" class="card-img-top">
+            <div class="card-body">
+              <h1 class="card-title">Advogado fala sobre como garantir os direitos dos idosos</h1>
+              <p class="card-text">Veja quais são os principais e o que fazer caso não seja cumprido.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
+        <a href="">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/900x350?x=5" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title">Card title</h1>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
+        <a href="">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/900x350?x=6" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title">Card title</h1>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
+        <a href="">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/900x350?x=7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title">Card title</h1>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- cards -->
 
-    <!-- sobre nos -->
-    <section id="sobre" class="container default-section-template">
+  <!-- sobre nos -->
+  <section id="sobre" class="container default-section-template">
+    <hr class="featurette-divider">
+    <h1 class="mb-5">Sobre <span class="color-primary">Nós</span></h1>
+    <div class="container marketing">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1 color-primary">InfoSocial</h2>
+          <p class="lead">Este site visa resolver esses problemas fornecendo uma plataforma simples e fácil de usar onde
+            os idosos podem facilmente encontrar as informações de que precisam, incluindo informações sobre benefícios
+            do governo. Além disso, o site será projetado com uma interface amigável e intuitiva para tornar a navegação
+            e o uso do site o mais fácil possível para os idosos.</p>
+        </div>
+        <div class="col-md-5">
+          <img id="img-sobre" src="./assets/meninoBorboleta-1.png" alt="">
+        </div>
+      </div>
       <hr class="featurette-divider">
-      <h1 class="mb-5">Sobre <span class="color-primary">Nós</span></h1>
-      <div class="container marketing">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1 color-primary">InfoSocial</h2>
-            <p class="lead">Este site visa resolver esses problemas fornecendo uma plataforma simples e fácil de usar onde os idosos podem facilmente encontrar as informações de que precisam, incluindo informações sobre benefícios do governo. Além disso, o site será projetado com uma interface amigável e intuitiva para tornar a navegação e o uso do site o mais fácil possível para os idosos.</p>
-          </div>
-          <div class="col-md-5">
-             <img id="img-sobre" src="./assets/meninoBorboleta-1.png" alt="">
-          </div>
-        </div>
-        <hr class="featurette-divider">
-      </div>
-    </section>
-    <!-- sobre nos -->
+    </div>
+  </section>
+  <!-- sobre nos -->
 
-    <!-- perguntas frequentes -->
-    <section id="faq" class="container default-section-template">
-      <h1 class="mb-5">Perguntas <span class="color-primary">Frequentes</span></h1>
-      <div id="accordion">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h1 class="perguntas">Pergunta 1</h1>
-              </button>
-            </h5>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
+  <!-- perguntas frequentes -->
+  <section id="faq" class="container default-section-template">
+    <h1 class="mb-5">Perguntas <span class="color-primary">Frequentes</span></h1>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              <h1 class="perguntas">Pergunta 1</h1>
+            </button>
+          </h5>
         </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h1 class="perguntas">Pergunta 2</h1>
-              </button>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h1 class="perguntas">Pergunta 3</h1>
-              </button>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+            you probably haven't heard of them accusamus labore sustainable VHS.
           </div>
         </div>
       </div>
-    </section>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              <h1 class="perguntas">Pergunta 2</h1>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+            you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              <h1 class="perguntas">Pergunta 3</h1>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+            you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- perguntas frequentes -->
 
   <!-- form -->
@@ -231,28 +264,29 @@
 
   <footer id="footer">
     <div class="footer-content">
-      <p class="slogan-footer">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e completa.</p>
+      <p class="slogan-footer">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e
+        completa.</p>
 
-    <div class="footer-links">
-      <h1>Links</h1>
-      <a href="#">Início <span class="sr-only">(Página atual)</span></a>
-      <a href="#beneficios">Benefícios</a>
-      <a href="#noticias">Notícias</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#faq">FAQ</a>
-      <a href="#duvidas">Dúvidas</a>
+      <div class="footer-links">
+        <h1>Links</h1>
+        <a href="#">Início <span class="sr-only">(Página atual)</span></a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">FAQ</a>
+        <a href="#duvidas">Dúvidas</a>
+      </div>
+
+      <div class="footer-links">
+        <h1>Contato</h1>
+        <p>Telefone: 190</p>
+        <p>E-mail: contato@infosocial.com.br</p>
+      </div>
+
+
     </div>
 
-    <div class="footer-links">
-      <h1>Contato</h1>
-      <p>Telefone: 190</p>
-      <p>E-mail: contato@infosocial.com.br</p>
-    </div>
 
-
-    </div>
-
-    
     <hr />
 
     <p class="copy">
@@ -260,11 +294,18 @@
     </p>
   </footer>
 
-    <!-- test -->
-    <!-- external libs -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3cde837431.js" crossorigin="anonymous"></script>
-  </body>
+  <!-- test -->
+  <!-- external libs -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3cde837431.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
