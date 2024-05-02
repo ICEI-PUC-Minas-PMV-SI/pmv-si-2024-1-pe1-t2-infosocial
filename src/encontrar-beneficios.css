@@ -1,0 +1,46 @@
+#form-beneficios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 1.3rem;
+  margin: 1rem;
+}
+
+#form-beneficios .btn-primary {
+  font-size: 2rem;
+}
+
+#form-beneficios img {
+  width: 500px;
+}
+
+#form-beneficios label {
+  font-size: 1.5rem;
+}
+
+#form-beneficios .form-check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-answers {
+  margin: 1rem;
+}
+
+.result-screen {
+  flex-direction: column !important;
+}
+
+.result-screen a {
+  width: 12.5rem;
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}

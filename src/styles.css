@@ -6,9 +6,14 @@
   --secondary-blue: #0F78E8;
 }
 
-*, body {
+*, body, i:not(.fa-solid) {
   font-family: 'Inter', sans-serif !important;
 }
+
+.fa-solid {
+  font-family: 'Font Awesome 6 Free' !important;
+}
+
 
 body {
   background-color: var(--white) !important;
