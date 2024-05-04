@@ -44,3 +44,12 @@
   justify-content: space-between;
   font-size: 2rem;
 }
+
+@media (max-width: 1024px) {
+  #form-beneficios {
+    flex-direction: column;
+  }
+  #form-beneficios img {
+    width: 80vw;
+  }
+}

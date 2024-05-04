@@ -189,7 +189,6 @@ label {
   background: var(--primary-blue);
   color: var(--white);
   padding: 4.688rem 12.313rem;
-  width: 100vw;
 }
 
 .footer-content {

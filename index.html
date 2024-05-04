@@ -15,18 +15,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
   <!-- our styles -->
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./src/styles.css">
   <title>InfoSocial</title>
 </head>
 
 <body>
   <a target="_blank" href="https://wa.me/5534999085002" class="button-whatsapp">
-    <img src="assets/WhatsApp-icone.png">
+    <img src="./src/assets/WhatsApp-icone.png">
   </a>
 
   <nav id="navbar-global" class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">
-      <img src="./assets/logo.svg" width="200">
+      <img src="./src/assets/logo.svg" width="200">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
@@ -42,7 +42,7 @@
       </div>
     </div>
     <form class="form-inline">
-      <a class="btn btn-primary my-2 my-sm-0" href="encontrarCRAS.html">Encontrar um CRAS</a>
+      <a class="btn btn-primary my-2 my-sm-0" href="/src/encontrar-cras.html">Encontrar um CRAS</a>
     </form>
   </nav>
 
@@ -50,8 +50,10 @@
     <h1 class="display-4" id="h1-bem-vindo">Bem-vindo ao InfoSocial</h1>
     <p class="lead">Descubra facilmente os benefícios governamentais que tornam sua vida mais simples e completa</p>
     <div id="jumbotron-buttons" class="d-flex justify-content-center">
-      <a class="btn btn-secondary btn-lg" href="#" role="button"><span class="text-button">Serviços</span></a>
-      <a class="btn btn-secondary btn-lg" href="#" role="button"><span class="text-button">CRAS</span></a>
+      <a class="btn btn-secondary btn-lg" href="/src/encontrar-beneficios.html" role="button"><span
+          class="text-button">Benefícios</span></a>
+      <a class="btn btn-secondary btn-lg" href="/src/encontrar-cras.html" role="button"><span
+          class="text-button">CRAS</span></a>
     </div>
   </div>
 
@@ -60,33 +62,33 @@
       <h1>Principais <span class="color-primary">benefícios</span></h1>
       <p class="text-center lead mt-3 mb-5">
         Encontre aqui sua lista dos principais benefícios que escolhemos para você. Está em dúvida de quais benefícios
-        se adequam a você? <a href="/encontrar-beneficios.html">Clique aqui e descubra</a>
+        se adequam a você? <a href="/src/encontrar-beneficios.html">Clique aqui e descubra</a>
       </p>
       <!-- cards -->
       <div class="row">
         <div class="col-md-6 mt-2 listaCards">
           <a class="btn btn-lg beneficios-button background-button" id="button01"
-            href="beneficios/passagemGratuita.html" target="_parent" role="button"></a>
+            href="/src/beneficios/passagem-gratuita.html" target="_parent" role="button"></a>
         </div>
         <div class="col-md-6 mt-2 listaCards">
-          <a class="btn btn-lg beneficios-button background-button" id="button02" href="beneficios/remedioGratuito.html"
-            role="button"></a>
+          <a class="btn btn-lg beneficios-button background-button" id="button02"
+            href="/src/beneficios/remedio-gratuito.html" role="button"></a>
         </div>
         <div class="col-md-6 mt-2 listaCards">
-          <a class="btn btn-lg beneficios-button background-button" id="button03" href="beneficios/isencaoImposto.html"
-            role="button"></a>
+          <a class="btn btn-lg beneficios-button background-button" id="button03"
+            href="/src/beneficios/isencao-imposto.html" role="button"></a>
         </div>
         <div class="col-md-6 mt-2 listaCards">
-          <a class="btn btn-lg beneficios-button background-button" id="button04" href="beneficios/bpc.html"
+          <a class="btn btn-lg beneficios-button background-button" id="button04" href="/src/beneficios/bpc.html"
             role="button"></a>
         </div>
         <div class="col-md-6 mt-2 listaCards" id="lista-01">
-          <a class="btn btn-lg beneficios-button background-button" id="button05" href="beneficios/isencaoIPTU.html"
-            role="button"></a>
+          <a class="btn btn-lg beneficios-button background-button" id="button05"
+            href="/src/beneficios/isencao-iptu.html" role="button"></a>
         </div>
         <div class="col-md-6 mt-2 listaCards">
           <a class="btn btn-lg beneficios-button background-button" id="button06"
-            href="beneficios/atendimentoPreferencial.html" role="button"></a>
+            href="/src/beneficios/atendimento-preferencial.html" role="button"></a>
         </div>
       </div>
       <!-- cards -->
@@ -110,20 +112,27 @@
         </a>
       </div>
       <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
-        <a taget= "_blank" href="https://einvestidor.estadao.com.br/educacao-financeira/idoso-nunca-contribuiu-direito-beneficio-inss/">
+        <a target="_blank"
+          href="https://einvestidor.estadao.com.br/educacao-financeira/idoso-nunca-contribuiu-direito-beneficio-inss/">
           <div class="card">
-            <img src="https://einvestidor.estadao.com.br/wp-content/uploads/2024/04/adobestock-261734944_180420240641.jpeg.webp" class="card-img-top" alt="...">
+            <img
+              src="https://einvestidor.estadao.com.br/wp-content/uploads/2024/04/adobestock-261734944_180420240641.jpeg.webp"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">Idoso que nunca contribuiu no INSS tem direito a benefício também!</h1>
-              <p class="card-text">Diferente dos benefícios previdenciários, o BPC não paga 13º salário e não deixa pensão por morte. Conheça.</p>
+              <p class="card-text">Diferente dos benefícios previdenciários, o BPC não paga 13º salário e não deixa
+                pensão por morte. Conheça.</p>
             </div>
           </div>
         </a>
       </div>
       <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
-        <a taget= "_blank" href="https://economia.uol.com.br/noticias/redacao/2021/10/14/oito-beneficios-isencoes-gratuidades-para-idosos.htm">
+        <a target="_blank"
+          href="https://economia.uol.com.br/noticias/redacao/2021/10/14/oito-beneficios-isencoes-gratuidades-para-idosos.htm">
           <div class="card">
-            <img src="https://conteudo.imguol.com.br/c/entretenimento/a7/2021/09/24/idosos-fazendo-planos-1632519384142_v2_900x506.jpg.webp" class="card-img-top" alt="...">
+            <img
+              src="https://conteudo.imguol.com.br/c/entretenimento/a7/2021/09/24/idosos-fazendo-planos-1632519384142_v2_900x506.jpg.webp"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">Idosos têm direito a 8 benefícios, isenções e gratuidades;</h1>
               <p class="card-text">Veja quais...</p>
@@ -132,9 +141,12 @@
         </a>
       </div>
       <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
-        <a taget= "_blank" href="https://bmcnews.com.br/2024/05/02/governo-libera-novo-cartao-para-idosos-com-55-anos-descubra-como-solicitar/">
+        <a target="_blank"
+          href="https://bmcnews.com.br/2024/05/02/governo-libera-novo-cartao-para-idosos-com-55-anos-descubra-como-solicitar/">
           <div class="card">
-            <img src="https://bmcnews.com.br/wp-content/uploads/2024/03/casamento-de-idosos-usando-laptop-na-sala-de-estar-2-1-1024x536.jpg" class="card-img-top" alt="...">
+            <img
+              src="https://bmcnews.com.br/wp-content/uploads/2024/03/casamento-de-idosos-usando-laptop-na-sala-de-estar-2-1-1024x536.jpg"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">Governo Libera Novo Cartão para Idosos Com 55 anos;</h1>
               <p class="card-text">Descubra Como Solicitar.</p>
@@ -160,7 +172,7 @@
             e o uso do site o mais fácil possível para os idosos.</p>
         </div>
         <div class="col-md-5">
-          <img id="img-sobre" src="./assets/meninoBorboleta-1.png" alt="">
+          <img id="img-sobre" src="./src/assets/meninoBorboleta-1.png" alt="">
         </div>
       </div>
       <hr class="featurette-divider">
@@ -184,8 +196,10 @@
 
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
           <div class="card-body">
-            De acordo com o artigo 3° do Estatuto do Idoso afirma que “é obrigação da família, da comunidade, da sociedade e do Poder Público, com absoluta prioridade, a efetivação do
-            direito à vida, à saúde, à alimentação, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à convivência.”
+            De acordo com o artigo 3° do Estatuto do Idoso afirma que “é obrigação da família, da comunidade, da
+            sociedade e do Poder Público, com absoluta prioridade, a efetivação do
+            direito à vida, à saúde, à alimentação, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à
+            cidadania, à liberdade, à dignidade, ao respeito e à convivência.”
           </div>
         </div>
       </div>
@@ -200,8 +214,11 @@
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
           <div class="card-body">
-            Nesse site da <a href="https://www.saude.mg.gov.br/obtermedicamentosceaf">Secretaria de Saúde de MG</a> existe um passo-a-passo explicativo de como acessar esse recurso garantido pelo CEAF através do SUS, vale lembrar 
-            que é necessário checar se o medicamente de seu interesse estará sendo disponibilizado na lista de medicamentos do CEAF(organizada em ordem alfabética), disponibilizada por esse mesmo
+            Nesse site da <a href="https://www.saude.mg.gov.br/obtermedicamentosceaf">Secretaria de Saúde de MG</a>
+            existe um passo-a-passo explicativo de como acessar esse recurso garantido pelo CEAF através do SUS, vale
+            lembrar
+            que é necessário checar se o medicamente de seu interesse estará sendo disponibilizado na lista de
+            medicamentos do CEAF(organizada em ordem alfabética), disponibilizada por esse mesmo
             link.
           </div>
         </div>
@@ -217,9 +234,11 @@
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div class="card-body">
-            Através do preenchimento de um rápido formulário administrado pela nossa equipe, a InfoSocial conseguirá responder através dos dados informados, quais benefícios se aplicam atualmente
-            ao idoso em questão, os resultados desse teste dependem diretamente das respostas dadas e pedimos que todas sejam checadas e confirmadas para melhor experiência no uso da ferramenta. 
-            Nosso teste pode ser acessado pelo botão "Benefícios" na página inicial ou através desse link: "insira o link do formulário"
+            Através do preenchimento de um rápido formulário administrado pela nossa equipe, a InfoSocial conseguirá
+            responder através dos dados informados, quais benefícios se aplicam atualmente
+            ao idoso em questão, os resultados desse teste dependem diretamente das respostas dadas e pedimos que todas
+            sejam checadas e confirmadas para melhor experiência no uso da ferramenta.
+            Nosso teste pode ser acessado <a href="/src/encontrar-beneficios.html">clicando aqui</a>
           </div>
         </div>
       </div>
