@@ -8,68 +8,52 @@ Dado esse cenário, pensamos em um projeto que implementasse uma aplicação que
 
 ## Problema
 
-O cerne do problema que buscamos solucionar reside na dificuldade generalizada de acesso a informações cruciais sobre programas sociais e assistência governamental. Observa-se que muitos idosos enfrentam obstáculos ao tentar obter dados relevantes sobre os benefícios disponíveis, os critérios de elegibilidade e os procedimentos para acesso a esses programas. A dispersão dessas informações em diferentes fontes, a falta de uma plataforma centralizada e a carência de interfaces de usuários intuitivas contribuem para a confusão e a desinformação.
+O cerne do problema que buscamos solucionar reside na dificuldade generalizada de acesso a informações cruciais sobre programas sociais e assistência governamental. Observa-se que muitos idosos enfrentam obstáculos ao tentar obter dados relevantes sobre os benefícios disponíveis, os critérios de elegibilidade e os procedimentos para acesso a esses programas. A dispersão dessas informações em diferentes fontes, a falta de uma plataforma centralizada e a carência de interfaces de usuários intuitivas contribuem para a confusão e a desinformação nesse meio.
 
-O problema que este site visa resolver é a dificuldade que muitos idosos enfrentam ao tentar encontrar informações relevantes na sociedade. Isso pode ser devido a várias razões, como:
-
-- **Falta de familiaridade com a tecnologia**: Muitos idosos não cresceram com a tecnologia que temos hoje e, portanto, podem achar difícil navegar na internet ou usar sites em smartphones.
-
-- **Acesso limitado à internet**: Alguns idosos podem não ter acesso regular à internet, tornando difícil para eles encontrarem as informações de que precisam.
-
-- **Dificuldade em encontrar informações relevantes**: Mesmo quando conseguem acessar a internet, os idosos podem achar difícil encontrar as informações de que precisam devido à grande quantidade de informações disponíveis online.
-
-Este site visa resolver esses problemas fornecendo uma plataforma simples e fácil de usar onde os idosos podem facilmente encontrar as informações de que precisam, incluindo informações sobre benefícios do governo. Além disso, o site será projetado com uma interface **amigável** e **intuitiva** para tornar a navegação e o uso do site o mais fácil possível para os idosos.
+Esta aplicação web visa resolver esses problemas fornecendo uma plataforma simples e fácil de usar onde os idosos podem facilmente encontrar as informações de que precisam, incluindo informações sobre benefícios do governo. Além disso, o site será projetado com uma interface **amigável** e **intuitiva**, com atendimento **humanizado** (via whatsapp) para tornar a navegação e o uso do site o mais fácil possível para os idosos, enquanto permitimos o esclarecimento de dúvidas de forma acessível.
 
 ## Objetivos
 
-O site para idosos tem o potencial de transformar a vida de milhares de pessoas, promovendo a autonomia, o bem-estar e a inclusão digital. Através de um design acessível, informações confiáveis e ferramentas interativas, o projeto pode contribuir para que os idosos se sintam mais conectados, informados e seguros.
+O site para idosos "InfoSocial" tem o potencial de transformar a vida de milhares de pessoas, promovendo a autonomia, o bem-estar e a inclusão digital. Através de um design acessível, informações confiáveis e ferramentas interativas, o projeto pode contribuir para que os idosos se sintam mais conectados, informados e seguros.
 
-**1. Acessibilidade e Segurança:**
+### Objetivo Geral:
 
--   **Navegação Simples e Intuitiva:**
+A InfoSocial visa desenvolver uma aplicação web voltada aos idosos para os engajar nos seus direitos sociais, atuando como intermediário nesse processo de verificação dos procedimentos necessários para acessá-los, entregando ferramentas que possam auxiliar no entendimento mais facilitado do que deve ser feito em cada processo de benefício social, com quais documentos devem ser feitos, e os locais que podem ou precisam ser visitados para realizá-los, com um suporte dedicado para garantir um atendimento mais humanizado daqueles que filtram essas informações e garantem uma curadoria especializada para esse grupo cada vez mais extenso de indivíduos.
+
+### Objetivos Específicos:
+
+Nosso site visa providenciar Acessibilidade e Segurança através das seguintes medidas, para garantir que nosso público se sinta confiante nesse ambiente digital que geralmente soa ameaçador para idosos em alguns casos;
+
+ **Navegação Simples e Intuitiva:**
     -   Layout claro e organizado, com menus e botões de fácil identificação.
     -   Fonte ampliada e legível, com bom contraste.
     -   Opção de narração de voz para auxiliar na navegação.
     -   Minimizar o uso de termos técnicos e jargões, priorizando linguagem simples e direta.
--   **Recursos de Acessibilidade:**
+**Recursos de Acessibilidade:**
     -   Compatibilidade com tecnologias assistivas, como leitores de tela e softwares de ampliação.
     -   Teclas de atalho para facilitar a navegação.
     -   Possibilidade de ajustar o tamanho da fonte e o contraste das cores.
--   **Segurança da Informação:**
+**Segurança da Informação:**
     -   Proteção de dados pessoais e sigilo das informações.
     -   Conteúdo confiável e verificado, com fontes oficiais e links seguros.
     -   Ambiente virtual protegido contra golpes e fraudes.
 
-**2. Informações Governamentais:**
+Nosso site também se preocupa em fornecer Informações Governamentais mais atualizadas, de fontes confiáveis e checadas pelo grupo de curadoria que cuidará da filtragem constante desses dados;
 
--   **Acesso Facilitado a Serviços e Benefícios:**
+ **Acesso Facilitado a Serviços e Benefícios:**
     -   Centralizar informações sobre programas sociais, aposentadoria, saúde, entre outros temas relevantes.
     -   Guias passo a passo para solicitar serviços e benefícios, com linguagem simples e descomplicada.
     -   Vídeos tutoriais e FAQs para auxiliar na compreensão dos processos.
--   **Atualização Constante de Conteúdo:**
+ **Atualização Constante de Conteúdo:**
     -   Notificações sobre novas leis, programas e benefícios.
     -   Calendário de eventos e workshops sobre temas de interesse para idosos.
     -   Blog com notícias e informações relevantes para a população idosa.
--   **Contato Direto com Órgãos Governamentais:**
+ **Contato Direto com Órgãos Governamentais:**
     -   Canais de comunicação eficientes para dúvidas e solicitações.
     -   Chat online com atendentes treinados para auxiliar os idosos.
-    -   Telefones e endereços de órgãos governamentais de forma clara e acessív
+    -   Telefones e endereços de órgãos governamentais de forma clara e acessível.
 
-### Objetivos Gerais:
-
-1. Facilitar o Acesso à Informação: Desenvolver uma aplicação que torna mais fácil para os idosos encontrar as informações que precisam na sociedade.
-
-2. Promover a Autonomia: Ajudar os idosos a se tornarem mais independentes ao fornecer uma ferramenta que eles podem usar para resolver seus próprios problemas.
-
-3. Simplicidade: Criar um site que seja simples e fácil de usar, levando em consideração que muitos idosos podem ter dificuldades para acessar a internet.
-
-### Objetivos Específicos:
-
-1. Busca de Informações: Implementar um mecanismo de busca eficiente e amigável que possa fornecer informações precisas e relevantes para os idosos.
-
-2. Interface Amigável: Desenvolver uma interface de usuário que seja intuitiva e amigável para os idosos, com fontes grandes, cores contrastantes e navegação simples.
-
-3. Suporte e Ajuda: Fornecer opções de suporte e ajuda dentro do site para auxiliar os idosos caso eles encontrem dificuldades ao usar o site.
+Facilitar a busca por informações com uma interface Amigável e intuitiva, e fornecer opções suporte e ajuda para auxiliar os idosos caso eles encontrem dificuldades ao usar o site é nossa maior preocupação.
 
 ## Justificativa
 
