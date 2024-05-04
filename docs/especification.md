@@ -73,14 +73,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|----| 
 |RF-001| A aplicação terá uma página listando sobre os principais benefícios para idosos | ALTA | ESTÁTICO |
 |RF-002| A aplicação deverá encaminhar para uma página detalhando o benefício escolhido | ALTA | ESTÁTICO |
-|RF-003| A aplicação deve possuir uma seção de perguntas frequentes | ALTA | ESTÁTICO |
-|RF-004| A aplicação deve possuir uma seção de links importantes | ALTA | ESTÁTICO |
-|RF-005| A aplicação deve possuir uma seção com notícias úteis para o público idoso | MEDIA | ESTÁTICO |
-|RF-006| A aplicação deve possuir um botão para entrar em contato por whatsapp | ALTA | DINÂMICO |
-|RF-007| A aplicação deve mostrar o CRAS mais próximo através da localização do usuário | ALTA | DINÂMICO |
-|RF-008| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | ALTA | DINÂMICO |
-|RF-009| A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas | ALTA | DINÂMICO |
-|RF-010| A aplicação deverá encaminhar as dúvidas do formulário de Fale Conosco para um e-mail | MEDIA | DINÂMICO |
+|RF-003| A aplicação deve possuir um botão para entrar em contato por whatsapp | ALTA | DINÂMICO |
+|RF-004| A aplicação deve mostrar o CRAS mais próximo através da localização do usuário | ALTA | DINÂMICO |
+|RF-005| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | ALTA | DINÂMICO |
+|RF-006| A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas | ALTA | DINÂMICO |
+|RF-007| A aplicação deverá encaminhar as dúvidas do formulário de Fale Conosco para um e-mail | MEDIA | DINÂMICO |
 
 
 ### Requisitos não Funcionais
@@ -90,9 +87,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve possuir uma interface de usuário amigável para o público idoso | ALTA | 
 |RNF-002| O sistema deve ser responsivo | ALTA | 
 |RNF-003| O sistema deve ser compatível com ferramentas de leitura de tela | ALTA | 
-|RNF-004| A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me)        |
-|RNF-005| A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações        |
-|RNF-006| A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização        |
+|RNF-004| A aplicação deve possuir uma seção de perguntas frequentes | ALTA |
+|RNF-005| A aplicação deve possuir uma seção de links importantes | ALTA |
+|RNF-006| A aplicação deve possuir uma seção com notícias úteis para o público idoso | MEDIA |
+|RNF-007| A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me)        |
+|RNF-008| A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações        |
+|RNF-009| A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização        |
 
 ## Restrições
 
