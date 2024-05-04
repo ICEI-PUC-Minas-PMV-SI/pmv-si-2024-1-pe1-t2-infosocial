@@ -21,11 +21,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
+## Perguntas
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| id             | Numero (Inteiro)  | Identificador único da pergunta            | 1                                              |
+| question         | Texto             | Pergunta da anamnese                         | Qual sua idade?                                   |
+| buttonLabel       | Texto             | Texto do botão de perguntar                       | Próximo                           |
+| isLastQuestion  | Booleano  | Indica se essa pergunta finaliza o questionario | false                                             |
+| answers         | Objeto             | Opções de respostas                         | { label: '20-30', value: 20 }                                   |
+
+## Respostas
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| questionId             | Numero (Inteiro)  | Identificador pergunta            | 1                                              |
+| value             | Texto  | Resposta selecionada            | '20-30'                                              |
+| userId             | Numero (Inteiro)  | Id do usuário que respondeu a pergunta            | 1                                     |
+
+## Formulario
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| name             | Texto  | Nome da pessoa respondido no formulario            | Marco                                              |
+| email             | Texto  | Email da pessoa respondido no formulario            | marco.candeo@sga.pucminas.br                                              |
+| message             | Texto  | Mensagem respondido no formulario            | Preciso de ajuda para encontrar benefícios                                              |
+
 ## Notícia
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
+| title         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
+| description       | Texto             | Descrição da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
+| link  | Texti  | link para o site de notícia | https://example.com                                              |
 
