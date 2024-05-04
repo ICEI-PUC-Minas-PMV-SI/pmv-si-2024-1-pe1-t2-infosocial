@@ -22,36 +22,37 @@ A InfoSocial visa desenvolver uma aplicação web voltada aos idosos para os eng
 
 ### Objetivos Específicos:
 
-Nosso site visa providenciar Acessibilidade e Segurança através das seguintes medidas, para garantir que nosso público se sinta confiante nesse ambiente digital que geralmente soa ameaçador para idosos em alguns casos;
+Nosso site visa providenciar Acessibilidade e Segurança através das seguintes medidas, para garantir que nosso público se sinta confiante nesse ambiente digital que geralmente soa ameaçador para idosos em alguns casos, pretendemos fazer isso nos orientando por esses objetivos específicos:
 
- **Navegação Simples e Intuitiva:**
-    -   Layout claro e organizado, com menus e botões de fácil identificação.
-    -   Fonte ampliada e legível, com bom contraste.
-    -   Opção de narração de voz para auxiliar na navegação.
-    -   Minimizar o uso de termos técnicos e jargões, priorizando linguagem simples e direta.
-**Recursos de Acessibilidade:**
-    -   Compatibilidade com tecnologias assistivas, como leitores de tela e softwares de ampliação.
-    -   Teclas de atalho para facilitar a navegação.
-    -   Possibilidade de ajustar o tamanho da fonte e o contraste das cores.
-**Segurança da Informação:**
-    -   Proteção de dados pessoais e sigilo das informações.
-    -   Conteúdo confiável e verificado, com fontes oficiais e links seguros.
-    -   Ambiente virtual protegido contra golpes e fraudes.
+No quesito de Acessiblidade, pretendemos;
+Providenciar layout claro e organizado, com menus e botões de fácil identificação.
+Desenvolver um design com fontes ampliadas e legíveis, com bom contraste.
+Fornecer uma opção de narração de voz para auxiliar na navegação.
+Minimizar o uso de termos técnicos e jargões, priorizando linguagem simples e direta.
+Garantir compatibilidade com tecnologias assistivas, como leitores de tela e softwares de ampliação.
+Facilitar a navegação através de teclas de atalho.
+Nos atentar à possibilidade de ajustar o tamanho da fonte e o contraste das cores.
 
-Nosso site também se preocupa em fornecer Informações Governamentais mais atualizadas, de fontes confiáveis e checadas pelo grupo de curadoria que cuidará da filtragem constante desses dados;
+No quesito de segurança, pretendemos também;
+Garantir a proteção de dados pessoais e sigilo das informações.
+Filtrar conteúdo confiável e verificado, com fontes oficiais e links seguros.
+Fonecer um ambiente virtual protegido contra golpes e fraudes.
 
- **Acesso Facilitado a Serviços e Benefícios:**
-    -   Centralizar informações sobre programas sociais, aposentadoria, saúde, entre outros temas relevantes.
-    -   Guias passo a passo para solicitar serviços e benefícios, com linguagem simples e descomplicada.
-    -   Vídeos tutoriais e FAQs para auxiliar na compreensão dos processos.
- **Atualização Constante de Conteúdo:**
-    -   Notificações sobre novas leis, programas e benefícios.
-    -   Calendário de eventos e workshops sobre temas de interesse para idosos.
-    -   Blog com notícias e informações relevantes para a população idosa.
- **Contato Direto com Órgãos Governamentais:**
-    -   Canais de comunicação eficientes para dúvidas e solicitações.
-    -   Chat online com atendentes treinados para auxiliar os idosos.
-    -   Telefones e endereços de órgãos governamentais de forma clara e acessível.
+Nosso site também se preocupa em fornecer Informações Governamentais mais atualizadas, de fontes confiáveis e checadas pelo grupo de curadoria que filtrará constante desses dados;
+
+No quesito de Acesso Facilitado a Serviços e Benefícios, pretendemos;
+Centralizar informações sobre programas sociais, aposentadoria, saúde, entre outros temas relevantes.
+Desenvolver guias passo a passo para solicitar serviços e benefícios, com linguagem simples e descomplicada.
+Incorporar vídeos tutoriais e FAQs para auxiliar na compreensão dos processos.
+
+No quesito de Atualização Constante de Conteúdo, pretendemos separar um setor específico da página inicial para;
+Exibir notificações sobre novas leis, programas e benefícios.
+Organizar em cards notícias e informações relevantes para a população idosa.
+
+Enquanto também cuidamos do Contato Direto com Órgãos Governamentais e com a própria InfoSocial, através de;
+Canais de comunicação eficientes (formulários) para dúvidas e solicitações.
+Chat online com atendentes treinados para auxiliar os idosos.
+Telefones e endereços de órgãos governamentais de forma clara e acessível.
 
 Facilitar a busca por informações com uma interface Amigável e intuitiva, e fornecer opções suporte e ajuda para auxiliar os idosos caso eles encontrem dificuldades ao usar o site é nossa maior preocupação.
 
