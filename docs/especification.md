@@ -15,9 +15,9 @@ Apesar de sua vontade de aprender, Sr. Garcia enfrentava dificuldades ao tentar 
 
 Certo dia, Sr. Garcia precisava acessar o site do governo para fazer um procedimento burocrático importante. Ele passou horas tentando navegar pelo site, mas acabou desistindo devido à sua dificuldade em encontrar o que precisava. Sentindo-se desanimado e isolado, Sr. Garcia começou a se perguntar se a tecnologia realmente era para ele.
 
-No entanto, sua neta, Sofia, notou a frustração de Sr. Garcia e decidiu ajudá-lo. Ela passou algum tempo pesquisando e encontrou programas e extensões que poderiam tornar a experiência na internet mais fácil para ele. Sofia também ensinou Sr. Garcia a ajustar as configurações do navegador para aumentar o tamanho do texto e a acessibilidade geral.
+No entanto, sua neta, Sofia, notou a frustração de Sr. Garcia e decidiu ajudá-lo. Ela passou algum tempo pesquisando e encontrou programas e extensões que poderiam tornar a experiência na internet mais fácil para ele. Sofia também ensinou Sr. Garcia a ajustar as configurações do navegador para aumentar o tamanho do texto e a acessibilidade geral, um desses sites compatíveis com essas configurações e ferramentas era justamente o InfoSocial, uma aplicação que se preocupou em tornar essas funções incorporadas à sua aplicação desde seu desenvolvimento inicial.
 
-Com a ajuda de Sofia e algumas adaptações simples, Sr. Garcia começou a se sentir mais confiante em suas habilidades online e até mesmo conseguiu aprender a utilizar o Whatsapp para conversar com seus netinhos.
+Com a ajuda de Sofia, o engajamento da equipe InfoSocial e algumas adaptações simples, Sr. Garcia começou a se sentir mais confiante em suas habilidades online e até mesmo conseguiu aprender a utilizar o Whatsapp para conversar com seus netinhos.
 
 ![Dona Elsa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/9074975e-05c4-4e34-b2b9-a9b01ffb7c80)
 
@@ -46,10 +46,6 @@ Apesar de seus esforços e da ajuda do neto, Lurdes não conseguiu entender comp
 
 No final, Lurdes percebeu que, mesmo com sua determinação, algumas batalhas eram simplesmente além de sua capacidade atual, e infelizmente, acabou desistindo de ir atrás dos seus direitos.
 
-![seu-pedro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/86071326/02eae292-de77-4790-88f2-acc0d1956d90)
-
-O aposentado José Antônio Martinez, de 88 anos, faz parte desse grupo, que mudou a rotina com o distanciamento causado pela doença. “Devido às circunstâncias de que hoje se precisa do celular para tudo, sobretudo com a pandemia em que fiquei um ano em casa, percebi que precisava aprender a usar o aparelho”, afirma. 
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -72,7 +68,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Tipo |
 |------|-----------------------------------------|----|----| 
 |RF-001| A aplicação terá uma página listando sobre os principais benefícios para idosos | ALTA | ESTÁTICO |
-|RF-002| A aplicação deverá encaminhar para uma página detalhando o benefício escolhido | ALTA | ESTÁTICO |
+|RF-002| A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado | ALTA | ESTÁTICO |
 |RF-003| A aplicação deve possuir um botão para entrar em contato por whatsapp | ALTA | DINÂMICO |
 |RF-004| A aplicação deve mostrar o CRAS mais próximo através da localização do usuário | ALTA | DINÂMICO |
 |RF-005| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | ALTA | DINÂMICO |
