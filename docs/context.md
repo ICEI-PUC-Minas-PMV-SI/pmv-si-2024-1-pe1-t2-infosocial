@@ -25,34 +25,18 @@ A InfoSocial visa desenvolver uma aplicação web voltada aos idosos para os eng
 Nosso site visa providenciar Acessibilidade e Segurança através das seguintes medidas, para garantir que nosso público se sinta confiante nesse ambiente digital que geralmente soa ameaçador para idosos em alguns casos, pretendemos fazer isso nos orientando por esses objetivos específicos:
 
 No quesito de Acessiblidade, pretendemos;
-Providenciar layout claro e organizado, com menus e botões de fácil identificação.
-Desenvolver um design com fontes ampliadas e legíveis, com bom contraste.
-Fornecer uma opção de narração de voz para auxiliar na navegação.
-Minimizar o uso de termos técnicos e jargões, priorizando linguagem simples e direta.
-Garantir compatibilidade com tecnologias assistivas, como leitores de tela e softwares de ampliação.
-Facilitar a navegação através de teclas de atalho.
-Nos atentar à possibilidade de ajustar o tamanho da fonte e o contraste das cores.
+Providenciar layout claro e organizado, com menus e botões de fácil identificação, desenvolver um design com fontes ampliadas e legíveis, com bom contraste. Fornecer uma opção de narração de voz para auxiliar na navegação, minimizar o uso de termos técnicos e jargões, priorizando linguagem simples e direta, garantir compatibilidade com tecnologias assistivas, como leitores de tela e softwares de ampliação. Facilitar a navegação através de teclas de atalho enquanto nos atentantamos à possibilidade de ajustar o tamanho da fonte e o contraste das cores para uma visualização mais apropriada.
 
 No quesito de segurança, pretendemos também;
-Garantir a proteção de dados pessoais e sigilo das informações.
-Filtrar conteúdo confiável e verificado, com fontes oficiais e links seguros.
-Fonecer um ambiente virtual protegido contra golpes e fraudes.
+Garantir a proteção de dados pessoais e sigilo das informações, filtrar conteúdo confiável e verificado, com fontes oficiais e links seguros e fonecer um ambiente virtual protegido contra golpes e fraudes.
 
 Nosso site também se preocupa em fornecer Informações Governamentais mais atualizadas, de fontes confiáveis e checadas pelo grupo de curadoria que filtrará constante desses dados;
 
-No quesito de Acesso Facilitado a Serviços e Benefícios, pretendemos;
-Centralizar informações sobre programas sociais, aposentadoria, saúde, entre outros temas relevantes.
-Desenvolver guias passo a passo para solicitar serviços e benefícios, com linguagem simples e descomplicada.
-Incorporar vídeos tutoriais e FAQs para auxiliar na compreensão dos processos.
+No quesito de Acesso Facilitado a Serviços e Benefícios, pretendemos; Centralizar informações sobre programas sociais, aposentadoria, saúde, entre outros temas relevantes, desenvolver guias passo a passo para solicitar serviços e benefícios, com linguagem simples e descomplicada e incorporar vídeos tutoriais e FAQs para auxiliar na compreensão dos processos.
 
-No quesito de Atualização Constante de Conteúdo, pretendemos separar um setor específico da página inicial para;
-Exibir notificações sobre novas leis, programas e benefícios.
-Organizar em cards notícias e informações relevantes para a população idosa.
+No quesito de Atualização Constante de Conteúdo, pretendemos separar um setor específico da página inicial para exibir notificações sobre novas leis, programas e benefícios e organizar em cards notícias e informações relevantes para a população idosa.
 
-Enquanto também cuidamos do Contato Direto com Órgãos Governamentais e com a própria InfoSocial, através de;
-Canais de comunicação eficientes (formulários) para dúvidas e solicitações.
-Chat online com atendentes treinados para auxiliar os idosos.
-Telefones e endereços de órgãos governamentais de forma clara e acessível.
+Enquanto também cuidamos do Contato Direto com Órgãos Governamentais e com a própria InfoSocial, através de canais de comunicação eficientes (formulários) para dúvidas e solicitações, chat online com atendentes treinados para auxiliar os idosos e telefones e endereços de órgãos governamentais de forma clara e acessível.
 
 Facilitar a busca por informações com uma interface Amigável e intuitiva, e fornecer opções suporte e ajuda para auxiliar os idosos caso eles encontrem dificuldades ao usar o site é nossa maior preocupação.
 
