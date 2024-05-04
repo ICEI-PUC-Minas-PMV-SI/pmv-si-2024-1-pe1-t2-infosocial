@@ -10,8 +10,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| A aplicação terá uma página listando sobre os principais benefícios para idosos | Sandro e Marco | index.html |
+|RF-002| A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado | Sandro | atendimento-preferencial.html, bpc.html, isencao-imposto.html, isencao-iptu.html, passagem-gratuita.html, remedio-gratuito.html |
+|RF-003| A aplicação deve possuir um botão para entrar em contato por whatsapp | Marco | todas as páginas |
+|RF-004| A aplicação deve mostrar o CRAS mais próximo através da localização do usuário | Sandro | encontrar-cras.html |
+|RF-005| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | Marco | encontrar-beneficios.html |
+|RF-006| A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas | Sandro | index.html |
 
 ## Descrição das estruturas:
 
