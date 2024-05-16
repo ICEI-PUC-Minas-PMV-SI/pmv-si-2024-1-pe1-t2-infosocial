@@ -3,8 +3,6 @@ URL = 'http://localhost:3000/contatos'
 //=================================================================================================
 // GET - Recupera todos os Contados e adiciona na tabela
 
-const nodemailer = require("nodemailer"); 
-
 let quantContatos = 0;
 
 fetch(URL)
@@ -66,33 +64,8 @@ duvidasForm.addEventListener('submit', (e) => {
     .then(res => res.json())
     .then(() => location.reload());  
 
-    transporterEmail();
-
 });
 
-let transporter = nodemailer.transporter({
-    host: "smtp.gmail.com",
-    port: "587",
-    secure: true,
-    auth: {
-        user: "infosocialpuc@gmail.com",
-        pass: "infosocial2024"
-    }
-});
-
-const transporterEmail = () =>{
-    transporter.sendMail({
-        from: "Info Social <infosocialpuc@gmail.com>",
-        to: "sandrojunior802@gmail.com",
-        subject: "Oi sou sandro estou testando nodemailer",
-        text: "Oi sou sandro estou testando nodemailer texto",
-        html: "Oi sou sandro estou testando <a href:'https://google.com'>nodemailer<a> texto"
-    }).then(message => {
-        console.log(message);
-    }).catch(err => {
-        console.log(err)
-    });        
-}
 
 
 
