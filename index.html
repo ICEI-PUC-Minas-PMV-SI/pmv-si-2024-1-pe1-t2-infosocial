@@ -258,20 +258,18 @@
   <!-- form -->
   <section id="duvidas" class="container default-section-template">
     <h1 class="mb-5">Mande sua <span class="color-primary">dúvida</span></h1>
-    <form>
-      <label for="exampleFormControlInput1">Nome Completo:</label>
+    <form id="duvidas-form">
+      <label for="nome-id">Nome Completo:</label>
       <div class="form-group">
-        <input class="form-control" type="text" placeholder="seu nome completo aqui...">
+        <input class="form-control" type="text" placeholder="seu nome completo aqui..." id="nome-id">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Endereço de email:</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        <label for="email-id">Endereço de email:</label>
+        <input type="email" class="form-control" placeholder="nome@exemplo.com" id="email-id">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect2">Assunto:</label>
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="assunto-id">Assunto:</label>
+        <textarea class="form-control" rows="3" id="assunto-id"></textarea>
       </div>
       <button class="btn btn-primary my-2 my-sm-0">Enviar</button>
     </form>
@@ -310,6 +308,8 @@
     </p>
   </footer>
 
+  <!-- main -->
+  <script src="main.js"></script>
   <!-- test -->
   <!-- external libs -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
