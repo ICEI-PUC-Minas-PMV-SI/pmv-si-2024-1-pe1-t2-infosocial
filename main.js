@@ -16,7 +16,6 @@ let bodyEmail = '';
 let userEmail = '';
 let userName = '';
 
-
 fetch(URL)
     .then(res => res.json())
     .then(contatos => {
@@ -58,7 +57,6 @@ duvidasForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
     let contDuvidas = (quantContatos + 1).toString()
-
     //let id = parseInt($('#id').text());    
 
     // RECUPERA OS DADOS DO CONTADOS
@@ -83,9 +81,7 @@ duvidasForm.addEventListener('submit', (e) => {
         body: contado
     })
     .then(res => res.json())
-    .then(() => location.reload());  
-
-
+    .then(() => location.reload());
 });
 
 async function sendEmail() {
