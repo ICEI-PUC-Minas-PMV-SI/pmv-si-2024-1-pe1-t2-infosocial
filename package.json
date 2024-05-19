@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "name": "pmv-si-2024-1-pe1-t2-infosocial",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/8672242/6d14cced-dc8b-4dca-ae92-04bb7c639d8a)",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
