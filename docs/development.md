@@ -17,7 +17,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | Marco | encontrar-beneficios.html |
 |RF-006| A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas | Sandro | index.html |
 |RF-007| A aplicação deverá ter uma seção de perguntas frequentes | Pedro | index.html |
-|RF-008| A aplicação deverá ter uma seção de perguntas noticias | Pedro | index.html |
+|RF-008| A aplicação deverá ter uma seção de notícias relevantes | Pedro | index.html |
 
 ## Descrição das estruturas:
 
