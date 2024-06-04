@@ -39,8 +39,19 @@ const questions = [
   }
 ]
 
-let currentQuestion = null
-const responses = []
+const getResponses = () => {
+  const responses = localStorage.getItem('@responses')
+  if (!responses) return []
+  return JSON.parse(responses)
+}
+
+const saveResponses = (responses = []) => {
+  localStorage.setItem('@responses', JSON.stringify(responses))
+}
+
+const responses = getResponses()
+let currentQuestion = responses.length ? questions[responses.length] : null
+
 
 const getNextQuestion = () => {
   if (currentQuestion && currentQuestion.isLastQuestion) {
@@ -50,10 +61,12 @@ const getNextQuestion = () => {
       return
     }
 
+    const responses = getResponses()
     responses.push({
       id: currentQuestion.id,
       response: response.value
     })
+    saveResponses(responses)
 
     getResultScreen()
     return
@@ -66,11 +79,13 @@ const getNextQuestion = () => {
       alert('Você precisa selecionar uma resposta')
       return
     }
-
+    const responses = getResponses()
     responses.push({
       id: currentQuestion.id,
       response: response.value
     })
+    saveResponses(responses)
+
     nextId = currentQuestion.id + 1
   }
 
@@ -85,10 +100,12 @@ const getNextQuestion = () => {
   createQuestionScreen(currentQuestion)
 }
 
-const getResultScreen = () => {
-  console.log(responses)
-  resetScreen()
 
+
+const getResultScreen = () => {
+  const responses = getResponses()
+  const beneficios = validateBeneficios(responses)
+  resetScreen()
 
   const formBeneficios = document.getElementById('form-beneficios')
   formBeneficios.classList.add('result-screen')
@@ -97,17 +114,38 @@ const getResultScreen = () => {
   title.innerText = 'Através das suas respostas, identificamos que você se encaixa nos seguintes benefícios:'
   formBeneficios.appendChild(title)
 
-  const button = document.createElement('a')
-  button.href = '/beneficios/bpc.html'
-  button.classList.add('btn', 'btn-success')
-  const checkmark = document.createElement('i')
-  checkmark.classList.add('fa-solid', 'fa-check')
-  button.appendChild(checkmark)
-  const text = document.createElement('span')
-  text.innerText = 'BPC'
-  button.appendChild(text)
+  const buttonGroup = document.createElement('div')
+  buttonGroup.className = 'button-group-beneficios'
 
-  formBeneficios.appendChild(button)
+  if (!beneficios.length) {
+    const message = document.createElement('h2')
+    message.innerText = 'Você ainda não se encaixa em nenhum benefício'
+    buttonGroup.appendChild(message)
+  }
+
+  beneficios.forEach(beneficio => {
+    const button = document.createElement('a')
+    button.href = beneficio.link 
+    button.classList.add('btn', 'btn-success')
+    const checkmark = document.createElement('i')
+    checkmark.classList.add('fa-solid', 'fa-check')
+    button.appendChild(checkmark)
+    const text = document.createElement('span')
+    text.innerText = beneficio.name
+    button.appendChild(text)
+    buttonGroup.appendChild(button)
+  })
+  formBeneficios.appendChild(buttonGroup)
+
+  const restart = document.createElement('button')
+  restart.classList.add('btn')
+  restart.classList.add('btn-primary')
+  restart.innerText = 'Refazer teste'
+  restart.onclick = () => {
+    localStorage.removeItem('@responses')
+    window.location.reload()
+  }
+  formBeneficios.appendChild(restart)
 }
 
 const resetScreen = () => {
@@ -157,4 +195,40 @@ const createFormInputElements = (answers = []) => {
     form.appendChild(formCheck)
   }
   return form
+}
+
+const validateBeneficios = (responses = []) => {
+  const beneficios = []
+  responses.forEach(r => {
+    const { id, response } = r 
+    if (id === 1 && parseInt(response) >= 60) {
+      beneficios.push({ name: 'Remédios Gratuitos', link: '/src/beneficios/remedio-gratuito.html' })
+      beneficios.push({ name: 'Isenção do Imposto de Renda', link: '/src/beneficios/isencao-imposto.html' })
+      beneficios.push({ name: 'BPC', link: '/src/beneficios/bpc.html' })
+      beneficios.push({ name: 'Atendimento Preferencial', link: '/src/beneficios/atendimento-preferencial.html' })
+    } else if (id === 2 && parseInt(response) === 2000) {
+      beneficios.push({ name: 'Passagens Gratuitas', link: '/src/beneficios/passagem-gratuita.html' })
+    } else if (id === 2 && parseInt(response) <= 4000) {
+      beneficios.push({ name: 'Isenção IPTU', link: '/src/beneficios/isencao-iptu.html' })
+    } else if (id === 3 && response === 'true' && !beneficios.find(beneficio => beneficio.name === 'Atendimento Preferencial')) {
+      beneficios.push({ name: 'Atendimento Preferencial', link: '/src/beneficios/atendimento-preferencial.html' })
+    }
+  })
+
+  return [...new Set(beneficios)]
+}
+
+if (responses.length) {
+  if (responses.length === 3) {
+    getResultScreen()
+  } else {
+    const question = questions.find(question => question.id === responses.length + 1)
+    if (!question) {
+      alert('Ocorreu um erro ao carregar as perguntas')
+    }
+
+    currentQuestion = question
+    resetScreen()
+    createQuestionScreen(currentQuestion)
+  }
 }

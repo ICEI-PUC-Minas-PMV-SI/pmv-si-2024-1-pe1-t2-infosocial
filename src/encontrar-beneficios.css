@@ -36,7 +36,7 @@
 }
 
 .result-screen a {
-  width: 12.5rem;
+  min-width: 12.5rem;
   height: 12.5rem;
   display: flex;
   flex-direction: column;
@@ -45,11 +45,20 @@
   font-size: 2rem;
 }
 
+.button-group-beneficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
 @media (max-width: 1024px) {
   #form-beneficios {
     flex-direction: column;
   }
   #form-beneficios img {
     width: 80vw;
+  }
+  .button-group-beneficios {
+    grid-template-columns: 1fr;
   }
 }
