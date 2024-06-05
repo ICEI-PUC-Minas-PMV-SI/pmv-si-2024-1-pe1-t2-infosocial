@@ -12,7 +12,6 @@ O projeto em andamento concentra-se na mitigação das dificuldades relacionadas
 
 ## Integrantes
 
-* Adilmar Muniz Parreira Moreira
 * Marco Túlio Candeo Medeiros e Silva
 * Sandro Sodre Nunes Junior
 * Pedro Augusto Amaral de Oliveira
