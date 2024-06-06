@@ -106,9 +106,9 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1 (idade / dispositivo)   | SIM             | 5                    | 27.87 segundos                  |
+| 2 (idade / dispositivo)      | SIM             | 5                    | 17.11 segundos                  |
+| 3 (idade / dispositivo)      | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
