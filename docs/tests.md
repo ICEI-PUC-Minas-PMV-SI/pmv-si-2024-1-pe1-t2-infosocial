@@ -25,7 +25,7 @@ Nesta seção, apresentamos a documentação dos testes realizados pelo grupo pa
 Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não funcional, que está sendo verificado. Além disso, indicaremos o artefato (página) onde o teste será executado, juntamente com sua descrição.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Acesso página principal**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve acessar o link infomado em dados de entrada e ter acesso a página principal de conteúdo.
 **Requisitos associados** | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.
