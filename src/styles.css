@@ -411,11 +411,6 @@ main > h2 {
   width: 30%;
 }
 
-#map {
-  width: 50%;
-}
-
-
 #main div:nth-of-type(2) {
   flex-basis: 100%;
 }
