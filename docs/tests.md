@@ -34,10 +34,13 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | [IndoSocial - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT01 - Detalhes do benefício selecionado**
+**Caso de Teste** | **CT02 - Detalhes do benefício selecionado**
  :--------------: | ------------
 **Procedimento**  | 	1) A página principal deve conter os nomes dos principais benefícios listados, assim que acessado o usuário de ser direcionado para detalhamento do benefícios.
-**Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado.
+**Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado
+RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos
+RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionad
+RNF-002	O sistema deve ser responsivo
 **Artefatos associados** | index.html adentimento-preferencial.html bpc.html isencao-imposto.html isecao-iptu.html passagem-gratuita.html remidio-gratuito.html
 **Resultado esperado** | Carregamento de página bem executado, listagem de benefícios e paginas de detalhamentos.
 **Dados de entrada** | Acesso do usuário
