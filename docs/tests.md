@@ -31,7 +31,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Requisitos associados** | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.
 **Artefatos associados** | index.html e style.css
 **Resultado esperado** | Carregamento de página bem executado.
-**Dados de entrada** | [Inserção de dados válidos no formulário de cadastro](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
+**Dados de entrada** | [IndoSocial - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT02 - Criar conta parte 2**
