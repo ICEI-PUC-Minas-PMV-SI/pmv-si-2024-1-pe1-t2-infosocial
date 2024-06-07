@@ -13,10 +13,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-001| A aplicação terá uma página listando sobre os principais benefícios para idosos | Sandro e Marco | index.html |
 |RF-002| A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado | Sandro | atendimento-preferencial.html, bpc.html, isencao-imposto.html, isencao-iptu.html, passagem-gratuita.html, remedio-gratuito.html |
 |RF-003| A aplicação deve possuir um botão para entrar em contato por whatsapp | Marco | todas as páginas |
-|RF-004| A aplicação deve mostrar o CRAS mais próximo através da localização do usuário | Sandro | encontrar-cras.html |
+|RF-004| A aplicação deve mostrar o CRAS mais próximo através da localização do usuário | Pedro | encontrar-cras.html |
 |RF-005| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | Marco | encontrar-beneficios.html |
 |RF-006| A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas | Sandro | index.html |
-|RF-007| A aplicação deverá ter uma seção de perguntas frequentes | Pedro | index.html |
+|RF-007| A aplicação deverá ter uma seção de perguntas frequentes | Sandro | index.html |
 |RF-008| A aplicação deverá ter uma seção de notícias relevantes | Pedro | index.html |
 
 ## Descrição das estruturas:
