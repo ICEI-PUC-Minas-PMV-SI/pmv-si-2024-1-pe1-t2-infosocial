@@ -18,19 +18,20 @@ A documentação dos testes é dividida nas seguintes seções:
 
 # Teste de Software
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
+Nesta seção, apresentamos a documentação dos testes realizados pelo grupo para verificar os requisitos funcionais e não funcionais da aplicação web InfoSocial.
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
+Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não funcional, que está sendo verificado. Além disso, indicaremos o artefato (página) onde o teste será executado, juntamente com sua descrição.
 
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Procedimento**  | 	1) O usuário deve acessar o link infomado em dados de entrada e ter acesso a página principal de conteúdo.
+**Requisitos associados** | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.
+**Artefatos associados** | index.html e style.css
+**Resultado esperado** | Carregamento de página bem executado.
+**Dados de entrada** | [Inserção de dados válidos no formulário de cadastro](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT02 - Criar conta parte 2**
