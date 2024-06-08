@@ -95,7 +95,8 @@ async function sendEmail() {
         Body : `Olá, sou ${userName}. ${bodyEmail}. Meu Email ${userEmail}`
     }).then(
       message => {
-        alert(message);
+        console.log(message)
+        alert("Seu email foi enviado com sucesso");
         document.getElementById('email-id').value = '';
         document.getElementById('nome-id').value = '';
         document.getElementById('assunto-id').value = '';
