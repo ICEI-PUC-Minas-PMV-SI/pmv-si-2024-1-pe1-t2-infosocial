@@ -27,7 +27,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 **Caso de Teste** | **CT02 - Detalhes do benefício selecionado**
  :--------------: | ------------
-**Procedimento**  | 	1) O usuário deve acessar a página <br> 2) O usuário deve navegar no pagina até a seção listagem de benefícios <br> 3) O usuário deve clicar no menu superior no nome benefícios.
+**Procedimento**  | 	1) O usuário deve acessar a página <br> 2) O usuário deve navegar no pagina até a seção listagem de benefícios <br> 3) O usuário deve clicar no mome de algum benefício, para ter acesso aos detalhes do mesmo.
 **Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado.<br> RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos.<br> RNF-002	O sistema deve ser responsivo.
 **Artefatos associados** | index.html, atendimento-preferencial.html, bpc.html, isencao-imposto.html, isencao-iptu.html, passagem-gratuita.html, remedio-gratuito.html, encontrar-beneficios.html
 **Resultado esperado** | Carregamento de página bem executado, listagem de benefícios e paginas de detalhamentos.
@@ -92,15 +92,45 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*    |*CT01 - Acessar os exercícios* |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. |
+|Link do vídeo do teste realizado: | [CT01 - Video](https://www.loom.com/share/0ff591d4de6c43179c7367a685d40a34?sid=ec4d2a4c-e6fa-4339-840b-1a039eff8e54)  | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*    |*CT02 - Detalhes do benefício selecionado* |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado.<br> RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos.<br> RNF-002	O sistema deve ser responsivo. |
+|Link do vídeo do teste realizado: | [CT02 - Video](https://www.loom.com/share/07a3639a927541e7a6c875a2d9fce0df?sid=856c0e3f-f0d6-4e2c-bc47-1f9e5718c92d)  | 
+
+|*Caso de Teste*    |*CT03 - Acesso a um atendimento humanizado* |
+|---|---|
+|Requisito Associado | RF-003 A aplicação deve possuir um botão para entrar em contato por whatsapp.<br> RNF-007	A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me).<br> RNF-002	O sistema deve ser responsivo. |
+|Link do vídeo do teste realizado: | [CT03 - Video](https://www.loom.com/share/9a08d0b3c6d84225aac825f4558faf97?sid=be5b417d-4699-474c-9f30-df2f4d06c570)  | 
+
+|*Caso de Teste*    |*CT04 - Mapa do CRAS mais próximo* |
+|---|---|
+|Requisito Associado | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário.<br> RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações.<br> RNF-002	O sistema deve ser responsivo.<br> RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização. |
+|Link do vídeo do teste realizado: | [CT04 - Video](https://www.loom.com/share/2c39276781d44a0e8fa22358369b46d7?sid=5ea1f4ba-5c84-4948-b86d-48a313e83657)  | 
+
+|*Caso de Teste*    |*CT05 - Teste de anamnese* |
+|---|---|
+|Requisito Associado | RF-005	A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo. |
+|Link do vídeo do teste realizado: | [CT05 - Video](https://www.loom.com/share/cc541e79b79545e4ae1a8eb3e57a94bc?sid=b24ea5c2-de46-4583-8221-bbe3c1fdf0fe)  | 
+
+|*Caso de Teste*    |*CT06 - Acesso ao Fale Conosco* |
+|---|---|
+|Requisito Associado | RF-006	A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.|
+|Link do vídeo do teste realizado: | [CT06 - Video](https://www.loom.com/share/10501f7ef9c94167952c663daa1e90bb?sid=96ae83d5-a296-4e77-b8a6-a3345cc807c2)  | 
+
+|*Caso de Teste*    |*CT07 - Acesso ao FAQ* |
+|---|---|
+|Requisito Associado | RF-007	A aplicação deverá ter uma seção de perguntas frequentes.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.|
+|Link do vídeo do teste realizado: | [CT07 - Video](https://www.loom.com/share/90609efee0ae45cdb12230caa4e69974?sid=9fca44bc-ee1e-43ca-b98d-57f3d81859a2)  | 
+
+|*Caso de Teste*    |*CT08 - Acesso a notícias relevantes de fontes confiáveis* |
+|---|---|
+|Requisito Associado | RF-008	A aplicação deverá ter uma seção de notícias relevantes.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.|
+|Link do vídeo do teste realizado: | [CT08 - Video](https://www.loom.com/share/b7d8a590cbbd419c90f83277f033fd3d?sid=078766dd-d638-450e-9959-28e48edbf252)  | 
 
 
 ## Avaliação dos Testes de Software
