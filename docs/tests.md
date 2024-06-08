@@ -7,15 +7,6 @@ Neste projeto serão realizados dois tipos de testes:
 
 Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
 
-A documentação dos testes é dividida nas seguintes seções:
-
- - [Plano de Testes de Software](#plano-de-testes-de-software)
- - [Registro dos Testes de Software](#registro-dos-testes-de-software)
- - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
- - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
-
 # Teste de Software
 
 Nesta seção, apresentamos a documentação dos testes realizados pelo grupo para verificar os requisitos funcionais e não funcionais da aplicação web InfoSocial.
@@ -31,24 +22,71 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Requisitos associados** | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.
 **Artefatos associados** | index.html e style.css
 **Resultado esperado** | Carregamento de página bem executado.
-**Dados de entrada** | [IndoSocial - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
+**Dados de entrada** | [InfoSocial - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT02 - Detalhes do benefício selecionado**
  :--------------: | ------------
-**Procedimento**  | 	1) O usuário deve acessar a página 2. O usuário deve navegar no pagina até a seção listagem de benefícios 3. O usuário deve clicar no menu superior no nome benefícios.
-**Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionad RNF-002	O sistema deve ser responsivo
-**Artefatos associados** | index.html adentimento-preferencial.html bpc.html isencao-imposto.html isecao-iptu.html passagem-gratuita.html remidio-gratuito.html
+**Procedimento**  | 	1) O usuário deve acessar a página 2) O usuário deve navegar no pagina até a seção listagem de benefícios 3) O usuário deve clicar no menu superior no nome benefícios.
+**Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado. RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos. RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado. RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html atendimento-preferencial.html bpc.html isencao-imposto.html isencao-iptu.html passagem-gratuita.html remedio-gratuito.html
 **Resultado esperado** | Carregamento de página bem executado, listagem de benefícios e paginas de detalhamentos.
 **Dados de entrada** | Acesso do usuário
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT03 - Acesso a um atendimento humanizado**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Procedimento**  | 	1) O usuário deve qualquer uma das páginas 2) O usuário deve navegar na pagina até o botão verde com o símbolo do Whatsapp 3) O usuário deve clicar no botão e será encaminhado pela API do whatsapp a um atendimento humanizado.
+**Requisitos associados** | RF-003 A aplicação deve possuir um botão para entrar em contato por whatsapp. RNF-007	A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me). RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html atendimento-preferencial.html bpc.html isencao-imposto.html isencao-iptu.html passagem-gratuita.html remedio-gratuito.html encontrar-cras.html
+**Resultado esperado** | Carregamento de página bem executado, API do Whatsapp integrada com sucesso, abrindo uma conversa de forma automatizada.
+**Dados de entrada** | Acesso do usuário
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Mapa do CRAS mais próximo**
+ :--------------: | ------------
+**Procedimento**  | 	1) O usuário deve clicar no botão "CRAS" 2) O usuário deve permitir que o navegador colete sua localização 3) O mapa deve exibir a localizacao do usuário, indicando o CRAS mais próximo.
+**Requisitos associados** | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário. RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações. RNF-002	O sistema deve ser responsivo. 
+RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização.
+**Artefatos associados** | encontrar-cras.html
+**Resultado esperado** | Carregamento de página bem executado, localização coletada com sucesso, API do maptiler integrada com sucesso.
+**Dados de entrada** | [InfoSocial - Encontrar CRAS](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/src/encontrar-cras.html)
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT05 - Teste de anamnese**
+ :--------------: | ------------
+**Procedimento**  | 	1) O usuário deve clicar no botão "Benefícios" 2) O usuário deve responder as perguntas corretamente 3) A tela deve retornar todos os benefícios disponíveis para o usuário de acordo com as respostas dadas.
+**Requisitos associados** | RF-005	A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | encontrar-beneficios.html
+**Resultado esperado** | Carregamento de página bem executado, sistema retornando benefícios para o usuário.
+**Dados de entrada** | [InfoSocial - Encontrar Benefícios](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/src/encontrar-beneficios.html)
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - Acesso ao Fale Conosco**
+ :--------------: | ------------
+**Procedimento**  | 	1) O usuário deve clicar na aba "Dúvida" 2) O usuário será redirecionado para outra parte da página, onde deve preencher os campos corretamente 3) A dúvida será encaminhada para o e-mail da InfoSocial e será respondida pelo mesmo canal.
+**Requisitos associados** | RF-006	A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html db.json package-lock.json package.json
+**Resultado esperado** | Carregamento de página bem executado, sistema encaminhando dúvidas com dados do formulário para o e-mail corretamente.
+**Dados de entrada** | Acesso do usuário
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT07 - Acesso ao FAQ**
+ :--------------: | ------------
+**Procedimento**  | 	1) O usuário deve clicar na aba "FAQ" 2) O usuário será redirecionado para outra parte da página, onde deve clicar na pergunta que quer responder 3) A resposta será exibida logo abaixo, com um texto completo e útil.
+**Requisitos associados** | RF-007	A aplicação deverá ter uma seção de perguntas frequentes. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html
+**Resultado esperado** | Carregamento de página bem executado, âncora encaminhando usuário para a seção de perguntas frequentes corretamente.
+**Dados de entrada** | Acesso do usuário
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT08 - Acesso a notícias relevantes de fontes confiáveis**
+ :--------------: | ------------
+**Procedimento**  | 	1) O usuário deve clicar na aba "Notícias" 2) O usuário será redirecionado para outra parte da página, onde verá cards de notícias 3) Ao clicar no card, o usuário será reencaminhado para uma fonte confiável que publicou a notícia exibida no mesmo.
+**Requisitos associados** | RF-008	A aplicação deverá ter uma seção de notícias relevantes. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html
+**Resultado esperado** | Carregamento de página bem executado, âncora encaminhando usuário para a seção de notícias corretamente, cards reencaminhando para fontes das notícias corretamente.
+**Dados de entrada** | Acesso do usuário
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
