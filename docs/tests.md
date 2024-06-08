@@ -181,27 +181,36 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que se encaixa na meia idade e baixa renda. Acesse a página inicial do site e tente compreender a proposta do projeto. Tente descobrir à quais benefícios você tem direito através do teste apropriado. |
+| 2             | Você é uma pessoa que se encaixa na meia idade que procura estar bem informada sobre as notícias recentes e relevantes sobre benefícios sociais, programas do governo e orientações apropriadas sobre como lidar com a parte burocrática desses temas quando estão direcionados ao público idoso. Tente se informar através dos cards da InfoSocial, que te redireciona para fontes de notícia confiáveis |
+| 3             | Você é uma pessoa que se encaixa na meia idade que está procurando por CRAS próximos para realizar os procedimentos burocráticos necessários para receber os benefícios aos quais tem direito. Procure através do "Encontre um CRAS" em sua região. |
+| 4             | Você é uma pessoa que se encaixa na meia idade e está com alguma dúvida sobre como utilizar o site InfoSocial. Encontre uma maneira de esclarecer a forma apropriada de usar o site ou tente mandar uma dúvida para a equipe da InfoSocial informando o que você gostaria de poder encontrar, mas não ficou claro ainda. |
+| 5             | Você é uma pessoa que se encaixa na meia idade e gostaria de um atendimento mais rápido e humanizado, que o ajudasse à entender como lidar com os procedimentos burocráticos relacionados ao seu benefício. Encontre uma maneira de falar diretamente com alguém da equipe InfoSocial através do Whatsapp, usando o redirecionamento do próprio site. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+### Registro indiscriminado
+Referente ao registro sem a devida separação de grupos
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1 (idade / dispositivo)   | SIM             | 5                    | 27.87 segundos                  |
-| 2 (idade / dispositivo)      | SIM             | 5                    | 17.11 segundos                  |
-| 3 (idade / dispositivo)      | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+Cenário 1: Você é uma pessoa que se encaixa na meia idade e baixa renda. Acesse a página inicial do site e tente compreender a proposta do projeto. Tente descobrir à quais benefícios você tem direito através do teste apropriado. 
+
+|   Usuário  | Taxa de sucesso | Satisfação subjetiva |  Tempo para conclusão do cenário  |
+|------------|-----------------|----------------------|-----------------------------------|
+| 1 (62 / PC)| SIM             | 5                    | 50.87   segundos                  |
+| 2 (75 / PC)| SIM             | 5                    | 120.30  segundos                  |
+| 3 (92 / PC)| SIM             | 4                    | 164.23  segundos                  |
+| 4 (62 / SP)| SIM             | 5                    | 45.87   segundos                  |
+| 5 (75 / SP)| SIM             | 5                    | 108.25  segundos                  |
+| 6 (92 / SP)| SIM             | 5                    | 144.23  segundos                  |
+| PC = Computador | SP = SmartPhone | Satisfação subjetiva - 1 (Péssimo) a 5 (Ótimo)      |                                                      
+| **Média**     | 100%         | 4.8                   | 105.02 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 12.66 segundos                   |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Achei o site muito agradável e fácil de usar. 
+    As letras são grandes e as cores tão num contraste bacana.
 
 
 Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
