@@ -152,11 +152,11 @@ No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable 
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
+O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à funcionalidade da aplicação de forma geral.
 
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
+Para tanto, elaboramos cinco cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
 
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
+Foram convidadas três pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
 
 Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
 
@@ -171,10 +171,6 @@ Satisfação subjetiva: responde como o usuário avalia o sistema com relação 
 Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
 ## Cenários de Teste de Usabilidade
@@ -191,43 +187,91 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade
 
-### Registro indiscriminado
-Referente ao registro sem a devida separação de grupos
+### Registro de Grupo - Idosos
+Referente a usabilidade da aplicação por parte dos idosos, considerando o mesmo cenário em dois dispositivos diferentes para cada usuário;
 
 Cenário 1: Você é uma pessoa que se encaixa na meia idade e baixa renda. Acesse a página inicial do site e tente compreender a proposta do projeto. Tente descobrir à quais benefícios você tem direito através do teste apropriado. 
 
 |   Usuário  | Taxa de sucesso | Satisfação subjetiva |  Tempo para conclusão do cenário  |
 |------------|-----------------|----------------------|-----------------------------------|
-| 1 (62 / PC)| SIM             | 5                    | 50.87   segundos                  |
+| 1 (62 / PC)| SIM             | 5                    | 57.87   segundos                  |
 | 2 (75 / PC)| SIM             | 5                    | 120.30  segundos                  |
 | 3 (92 / PC)| SIM             | 4                    | 164.23  segundos                  |
-| 4 (62 / SP)| SIM             | 5                    | 45.87   segundos                  |
+| 4 (62 / SP)| SIM             | 5                    | 45.83   segundos                  |
 | 5 (75 / SP)| SIM             | 5                    | 108.25  segundos                  |
-| 6 (92 / SP)| SIM             | 5                    | 144.23  segundos                  |
-| PC = Computador | SP = SmartPhone | Satisfação subjetiva - 1 (Péssimo) a 5 (Ótimo)      |                                                      
+| 6 (92 / SP)| SIM             | 5                    | 144.23  segundos                  |                                                   
 | **Média**     | 100%         | 4.8                   | 105.02 segundos                  |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 12.66 segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20.60 segundos                   |
 
 
     Comentários dos usuários: Achei o site muito agradável e fácil de usar. 
-    As letras são grandes e as cores tão num contraste bacana.
+    As letras são grandes e as cores tão em um contraste bacana.
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que se encaixa na meia idade que procura estar bem informada sobre as notícias recentes e relevantes sobre benefícios sociais, programas do governo e orientações apropriadas sobre como lidar com a parte burocrática desses temas quando estão direcionados ao público idoso. Tente se informar através dos cards da InfoSocial, que te redireciona para fontes de notícia confiáveis. 
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+|   Usuário  | Taxa de sucesso | Satisfação subjetiva |  Tempo para conclusão do cenário  |
+|------------|-----------------|----------------------|-----------------------------------|
+| 1 (62 / PC)| SIM             | 5                    | 33.50  segundos                   |
+| 2 (75 / PC)| SIM             | 5                    | 60.67  segundos                   |
+| 3 (92 / PC)| SIM             | 5                    | 92.21  segundos                   |
+| 4 (62 / SP)| SIM             | 5                    | 25.80  segundos                   |
+| 5 (75 / SP)| SIM             | 5                    | 53.49  segundos                   |
+| 6 (92 / SP)| SIM             | 5                    | 85.44  segundos                   |                                                   
+| **Média**     | 100%         | 5                    | 58.51  segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 6.66 segundos                    |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: O site é fácil de acessar, o botão que leva direto para as notícias é bem útil 
+    as letras dos cards estão num tamanho ótimo, parece ter sido feito pensando em quem tem dificuldade na leitura.
+
+Cenário 3: Você é uma pessoa que se encaixa na meia idade que está procurando por CRAS próximos para realizar os procedimentos burocráticos necessários para receber os benefícios aos quais tem direito. Procure através do "Encontre um CRAS" em sua região.
+
+|   Usuário  | Taxa de sucesso | Satisfação subjetiva |  Tempo para conclusão do cenário  |
+|------------|-----------------|----------------------|-----------------------------------|
+| 1 (62 / PC)| SIM             | 5                    | 41.57   segundos                  |
+| 2 (75 / PC)| SIM             | 4                    | 87.30   segundos                  |
+| 3 (92 / PC)| SIM             | 4                    | 102.23  segundos                  |
+| 4 (62 / SP)| SIM             | 5                    | 35.87   segundos                  |
+| 5 (75 / SP)| SIM             | 4                    | 80.25   segundos                  |
+| 6 (92 / SP)| SIM             | 4                    | 95.23   segundos                  |                                                   
+| **Média**     | 100%         | 4.42                 | 90.82   segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 7.30  segundos                   |
+
+    Comentários dos usuários: O mapa abriu rápido e coletou de forma precisa aonde estou no momento 
+    tornando mais fácil situar onde fica o CRAS mais próximo e como chegar lá, mas falta um indicador mais chamativo ainda.
+
+Cenário 4: Você é uma pessoa que se encaixa na meia idade e está com alguma dúvida sobre como utilizar o site InfoSocial. Encontre uma maneira de esclarecer a forma apropriada de usar o site ou tente mandar uma dúvida para a equipe da InfoSocial informando o que você gostaria de poder encontrar, mas não ficou claro ainda.
+
+|   Usuário  | Taxa de sucesso | Satisfação subjetiva |  Tempo para conclusão do cenário  |
+|------------|-----------------|----------------------|-----------------------------------|
+| 1 (62 / PC)| SIM             | 5                    | 70.18   segundos                  |
+| 2 (75 / PC)| SIM             | 5                    | 150.71  segundos                  |
+| 3 (92 / PC)| SIM             | 5                    | 230.57  segundos                  |
+| 4 (62 / SP)| SIM             | 5                    | 45.34   segundos                  |
+| 5 (75 / SP)| SIM             | 5                    | 128.45  segundos                  |
+| 6 (92 / SP)| SIM             | 5                    | 178.76  segundos                  |                                                   
+| **Média**     | 100%         | 5                    | 133.92  segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 22 segundos                      |
+
+    Comentários dos usuários: O botão de "dúvida" no topo da página deixa intuitivo e fácil de visualizar para o que serve. 
+    Demorei pra conseguir lembrar meu endereço de e-mail e pensar numa forma de explicar minha dúvida.
+
+Cenário 5: Você é uma pessoa que se encaixa na meia idade e gostaria de um atendimento mais rápido e humanizado, que o ajudasse à entender como lidar com os procedimentos burocráticos relacionados ao seu benefício. Encontre uma maneira de falar diretamente com alguém da equipe InfoSocial através do Whatsapp, usando o redirecionamento do próprio site.
+
+|   Usuário  | Taxa de sucesso | Satisfação subjetiva |  Tempo para conclusão do cenário  |
+|------------|-----------------|----------------------|-----------------------------------|
+| 1 (62 / PC)| SIM             | 5                    | 15.82   segundos                  |
+| 2 (75 / PC)| SIM             | 5                    | 17.58   segundos                  |
+| 3 (92 / PC)| SIM             | 5                    | 40.77   segundos                  |
+| 4 (62 / SP)| SIM             | 5                    | 12.35   segundos                  |
+| 5 (75 / SP)| SIM             | 5                    | 15.25   segundos                  |
+| 6 (92 / SP)| SIM             | 5                    | 80.46   segundos                  |                                                   
+| **Média**     | 100%         | 5                    | 29.83   segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos                       |
+
+    Comentários dos usuários: O "Whatsapp" no cantinho da página é uma ótima notícia para quem é ansioso e prefere 
+    ser atendido por um ser humano ao invés de ter que lidar com muita tecnologia toda vez que quiser reivindicar um benefício.
 
 ## Avaliação dos Testes de Usabilidade
 
@@ -235,9 +279,9 @@ Tomando como base os resultados obtidos, foi possível verificar que a aplicaç�
 
 Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc. Também notamos uma discrepância no tempo entre os usuários com eles próprios dependendo do dispositivo que usavam, houve melhora perceptível de até 15% nos cenários em que o público-alvo acessava os recursos do sistema pelo celular.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Contudo, tendo em vista que a diferença foi relevante (por exemplo, 133.92 segundos — média usuários — contra 22 segundos — especialista — no cenário quatro), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação, como com a classificação mais específica das dúvidas — para reduzir a necessidade de especificidade no texto do usuário, e a implementação de um ícone mais chamativo para indicar com mais precisão o CRAS mais próximo para o usuário.
 
 
 
