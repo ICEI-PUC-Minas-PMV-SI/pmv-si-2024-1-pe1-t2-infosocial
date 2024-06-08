@@ -120,7 +120,7 @@ Esta seção está apresentando um relatório com as evidências dos testes de s
 |*Caso de Teste*    |*CT06 - Acesso ao Fale Conosco* |
 |---|---|
 |Requisito Associado | RF-006	A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.|
-|Link do vídeo do teste realizado: | [CT06 - Video](https://www.loom.com/share/10501f7ef9c94167952c663daa1e90bb?sid=96ae83d5-a296-4e77-b8a6-a3345cc807c2)  | 
+|Link do vídeo do teste realizado: | [[CT06 - Video](https://www.loom.com/share/688a1f5b19bc422a90bc2fc4be2509b6)] | 
 
 |*Caso de Teste*    |*CT07 - Acesso ao FAQ* |
 |---|---|
