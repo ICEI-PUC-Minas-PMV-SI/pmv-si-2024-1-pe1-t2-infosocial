@@ -19,7 +19,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT01 - Acesso página principal**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve acessar o link infomado em dados de entrada e ter acesso a página principal de conteúdo.
-**Requisitos associados** | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.
+**Requisitos associados** | RF-001 A aplicação deve conter uma página principal de apresentação dos conteúdos.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.
 **Artefatos associados** | index.html e style.css
 **Resultado esperado** | Carregamento de página bem executado.
 **Dados de entrada** | [InfoSocial - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/)
@@ -28,8 +28,8 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT02 - Detalhes do benefício selecionado**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve acessar a página <br> 2) O usuário deve navegar no pagina até a seção listagem de benefícios <br> 3) O usuário deve clicar no menu superior no nome benefícios.
-**Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado. RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos. RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado. RNF-002	O sistema deve ser responsivo.
-**Artefatos associados** | index.html atendimento-preferencial.html bpc.html isencao-imposto.html isencao-iptu.html passagem-gratuita.html remedio-gratuito.html
+**Requisitos associados** | RF-002	A aplicação deverá permitir que o usuário possa visualizar os detalhes do benefício selecionado.<br> RF-001	A aplicação terá uma página listando sobre os principais benefícios para idosos.<br> RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html, atendimento-preferencial.html, bpc.html, isencao-imposto.html, isencao-iptu.html, passagem-gratuita.html, remedio-gratuito.html, encontrar-beneficios.html
 **Resultado esperado** | Carregamento de página bem executado, listagem de benefícios e paginas de detalhamentos.
 **Dados de entrada** | Acesso do usuário
 **Resultado obtido** | Sucesso
@@ -37,8 +37,8 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT03 - Acesso a um atendimento humanizado**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve qualquer uma das páginas <br> 2) O usuário deve navegar na pagina até o botão verde com o símbolo do Whatsapp <br> 3) O usuário deve clicar no botão e será encaminhado pela API do whatsapp a um atendimento humanizado.
-**Requisitos associados** | RF-003 A aplicação deve possuir um botão para entrar em contato por whatsapp. RNF-007	A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me). RNF-002	O sistema deve ser responsivo.
-**Artefatos associados** | index.html atendimento-preferencial.html bpc.html isencao-imposto.html isencao-iptu.html passagem-gratuita.html remedio-gratuito.html encontrar-cras.html
+**Requisitos associados** | RF-003 A aplicação deve possuir um botão para entrar em contato por whatsapp.<br> RNF-007	A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me).<br> RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html, atendimento-preferencial.html, bpc.html, isencao-imposto.html, isencao-iptu.html, passagem-gratuita.html, remedio-gratuito.html, encontrar-cras.html, encontrar-beneficios.html
 **Resultado esperado** | Carregamento de página bem executado, API do Whatsapp integrada com sucesso, abrindo uma conversa de forma automatizada.
 **Dados de entrada** | Acesso do usuário
 **Resultado obtido** | Sucesso
@@ -46,7 +46,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT04 - Mapa do CRAS mais próximo**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve clicar no botão "CRAS" <br> 2) O usuário deve permitir que o navegador colete sua localização <br> 3) O mapa deve exibir a localizacao do usuário, indicando o CRAS mais próximo.
-**Requisitos associados** | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário. RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações. RNF-002	O sistema deve ser responsivo. RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização.
+**Requisitos associados** | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário.<br> RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações.<br> RNF-002	O sistema deve ser responsivo.<br> RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização.
 **Artefatos associados** | encontrar-cras.html
 **Resultado esperado** | Carregamento de página bem executado, localização coletada com sucesso, API do maptiler integrada com sucesso.
 **Dados de entrada** | [InfoSocial - Encontrar CRAS](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/src/encontrar-cras.html)
@@ -55,7 +55,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT05 - Teste de anamnese**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve clicar no botão "Benefícios" <br> 2) O usuário deve responder as perguntas corretamente <br> 3) A tela deve retornar todos os benefícios disponíveis para o usuário de acordo com as respostas dadas.
-**Requisitos associados** | RF-005	A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Requisitos associados** | RF-005	A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.
 **Artefatos associados** | encontrar-beneficios.html
 **Resultado esperado** | Carregamento de página bem executado, sistema retornando benefícios para o usuário.
 **Dados de entrada** | [InfoSocial - Encontrar Benefícios](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/src/encontrar-beneficios.html)
@@ -64,8 +64,8 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT06 - Acesso ao Fale Conosco**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve clicar na aba "Dúvida" <br> 2) O usuário será redirecionado para outra parte da página, onde deve preencher os campos corretamente <br> 3) A dúvida será encaminhada para o e-mail da InfoSocial e será respondida pelo mesmo canal.
-**Requisitos associados** | RF-006	A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
-**Artefatos associados** | index.html db.json package-lock.json package.json
+**Requisitos associados** | RF-006	A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.
+**Artefatos associados** | index.html, db.json, package-lock.json, package.json
 **Resultado esperado** | Carregamento de página bem executado, sistema encaminhando dúvidas com dados do formulário para o e-mail corretamente.
 **Dados de entrada** | Acesso do usuário
 **Resultado obtido** | Sucesso
@@ -73,7 +73,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT07 - Acesso ao FAQ**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve clicar na aba "FAQ" <br> 2) O usuário será redirecionado para outra parte da página, onde deve clicar na pergunta que quer responder <br> 3) A resposta será exibida logo abaixo, com um texto completo e útil.
-**Requisitos associados** | RF-007	A aplicação deverá ter uma seção de perguntas frequentes. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Requisitos associados** | RF-007	A aplicação deverá ter uma seção de perguntas frequentes.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.
 **Artefatos associados** | index.html
 **Resultado esperado** | Carregamento de página bem executado, âncora encaminhando usuário para a seção de perguntas frequentes corretamente.
 **Dados de entrada** | Acesso do usuário
@@ -82,7 +82,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT08 - Acesso a notícias relevantes de fontes confiáveis**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve clicar na aba "Notícias" <br> 2) O usuário será redirecionado para outra parte da página, onde verá cards de notícias <br> 3) Ao clicar no card, o usuário será reencaminhado para uma fonte confiável que publicou a notícia exibida no mesmo.
-**Requisitos associados** | RF-008	A aplicação deverá ter uma seção de notícias relevantes. RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso. RNF-002	O sistema deve ser responsivo.
+**Requisitos associados** | RF-008	A aplicação deverá ter uma seção de notícias relevantes.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo.
 **Artefatos associados** | index.html
 **Resultado esperado** | Carregamento de página bem executado, âncora encaminhando usuário para a seção de notícias corretamente, cards reencaminhando para fontes das notícias corretamente.
 **Dados de entrada** | Acesso do usuário
