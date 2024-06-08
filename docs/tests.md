@@ -135,11 +135,20 @@ Esta seção está apresentando um relatório com as evidências dos testes de s
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+### Sobre os bugs
+Ao terminar os testes de software, foi possível encontrar alguns bugs de diversos níveis, desde o mais grave até o mais simples. No entanto, é válido ressaltar que todos os bugs detectados na aplicação atualmente, com base nos testes, foram corrigidos com sucesso, somando assim 4 correções de 4 bugs, segue abaixo o gráfico que separa os bugs pelas suas devidas categorias:
 
-## Testes de unidade automatizados (Opcional)
+![chart](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial/assets/100433614/0fce7a74-9622-45e6-a10d-2981ee9db5e9)
+<br>
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+Vale destacar que, a detecção dos bugs foram de extrema importância para o desenvolvimento do projeto, tendo em vista de que foi possível gerar um feedback de como está o estado de vida da aplicação e propor possíveis melhorias, como a correção dos retornos dados no teste de anamnese do CT05 e uma implementação mais apropriada de um indicador no mapa do CT04.
+
+### Pontos fracos e fortes da aplicação 
+
+Ao analisar a aplicação por meios dos testes foi possível compreender onde a aplicação mais se destaca e onde ela menos se destaca, por exemplo; como analisado no CT01, CT06, CT07 e CT08, a aplicação possui fortes pontos positivos com relação ao seu layout, sendo amigável para o público idoso, direta ao ponto e eficiente, quando o assunto é feedback e validação dos dados de entrada que o usuário pode interagir, impedindo assim, que o mesmo cometa erros básicos no sistema.
+
+No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable Product), podem-se notar limitações significativas em suas funcionalidades, como por exemplo, poucas notícias relevantes para o público em sua biblioteca e falta de pessoas disponíveis para retornar as dúvidas do usuário e cuidar do atendimento humanizado que gostaríamos de fornecer.
+
 
 # Testes de Usabilidade
 
