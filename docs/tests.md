@@ -46,8 +46,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT04 - Mapa do CRAS mais próximo**
  :--------------: | ------------
 **Procedimento**  | 	1) O usuário deve clicar no botão "CRAS" 2) O usuário deve permitir que o navegador colete sua localização 3) O mapa deve exibir a localizacao do usuário, indicando o CRAS mais próximo.
-**Requisitos associados** | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário. RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações. RNF-002	O sistema deve ser responsivo. 
-RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização.
+**Requisitos associados** | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário. RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações. RNF-002	O sistema deve ser responsivo. RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização.
 **Artefatos associados** | encontrar-cras.html
 **Resultado esperado** | Carregamento de página bem executado, localização coletada com sucesso, API do maptiler integrada com sucesso.
 **Dados de entrada** | [InfoSocial - Encontrar CRAS](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-infosocial/src/encontrar-cras.html)
