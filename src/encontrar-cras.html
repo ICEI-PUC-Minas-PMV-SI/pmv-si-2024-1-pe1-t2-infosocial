@@ -14,7 +14,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
+  <!-- map -->
+  <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.min.js"></script>
+  <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.css" rel="stylesheet" />
+
   <!-- our styles -->
+  <link rel="stylesheet" href="./encontrar-cras.css">
   <link rel="stylesheet" href="./styles.css">
   <title>InfoSocial</title>
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
@@ -70,24 +75,9 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Buscar</button>
+        <div id="map"></div>
       </form>
     </div>
-    <div class="item2">
-      <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
-        <script>(function () {
-            var setting = {"query": "Rua Dom R - Jardim California, Barretos - SP, Brasil", "width": 975, "height": 600, "satellite": false, "zoom": 12, "placeId": "EjpSLiBEb20gUiAtIEphcmRpbSBDYWxpZm9ybmlhLCBCYXJyZXRvcyAtIFNQLCAxNDc4MSwgQnJhemlsIi4qLAoUChIJBb62YtKEu5QR_bq1ETuNmdkSFAoSCfM7Y0Atm7uUEfTD5NXh9Cqn", "cid": "0xd9998d3b11b5bafd", "coords": [-20.5351355, -48.5613116], "cityUrl": "/brazil/barretos-42933", "cityAnchorText": "Mapa de Barretos, Sao Paulo, Brasil", "lang": "pt", "queryString": "Rua Dom R - Jardim California, Barretos - SP, Brasil", "centerCoord": [-20.5351355, -48.5613116], "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "1102829"};
-            var d = document;
-            var s = d.createElement('script');
-            s.src = 'https://1map.com/js/script-for-user.js?embed_id=1102829';
-            s.async = true;
-            s.onload = function (e) {
-              window.OneMap.initMap(setting)
-            };
-            var to = d.getElementsByTagName('script')[0];
-            to.parentNode.insertBefore(s, to);
-          })();</script><a href="https://1map.com/pt/map-embed">1 Map</a>
-      </div>
     </div>
   </div>
 
@@ -125,7 +115,8 @@
 
   <!-- test -->
   <!-- external libs -->
-
+ 
+  <script src="./encontrar-cras.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

@@ -74,7 +74,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário | ALTA | DINÂMICO |
 |RF-006| A aplicação deverá fornecer um formulário de Fale Conosco, para os idosos encaminharem dúvidas | ALTA | DINÂMICO |
 |RF-007| A aplicação deverá ter uma seção de perguntas frequentes | MEDIA | ESTÁTICO |
-|RF-008| A aplicação deverá ter uma seção de perguntas noticias | MEDIA | ESTÁTICO |
+|RF-008| A aplicação deverá ter uma seção de notícias relevantes | MEDIA | ESTÁTICO |
 
 
 ### Requisitos não Funcionais
