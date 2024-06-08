@@ -16,36 +16,40 @@ let bodyEmail = '';
 let userEmail = '';
 let userName = '';
 
-fetch(URL)
-    .then(res => res.json())
-    .then(contatos => {
-        quantContatos = contatos.length;
-        // let lista_contatos = '';
-        // for (let i = 0; i < contatos.length; i++) {
-        //     vlt_total = contatos[i].qtd * contatos[i].vlr;
-        //     lista_contatos += `
-        //     <tr>
-        //         <th>${contatos[i].id}</th>
-        //         <td>${contatos[i].nome}</td>
-        //         <td>R$${(parseFloat(contatos[i].vlr)).toFixed(2)}</td>
-        //         <td>${contatos[i].qtd}</td>
-        //         <td>R$${parseFloat(vlt_total).toFixed(2)}</td>
-        //         <td>
-        //             <a onclick="getProduto(${contatos[i].id});" 
-        //             class="btn btn-warning btn-sm" 
-        //             data-toggle="modal" data-target="#produto-modal">
-        //             <i class="fa fa-edit"></i>  Editar
-        //             </a>
 
-        //             <a onclick="$('#id-prod').text(${contatos[i].id});" class="btn btn-danger btn-sm" 
-        //             data-toggle="modal" data-target="#modal-delete">
-        //             <i class="fa fa-trash"></i> Remover
-        //             </a>
-        //         </td>
-        //     </tr>
-        //     `;
-        //     produtoList.innerHTML = lista_contatos;
-        // }
+const contatoList = document.getElementById('contato-list');
+fetch(URL)
+.then(res => res.json())
+.then(contatos => {
+        console.log(contatos)
+        quantContatos = contatos.length;
+        let lista_contatos = '';
+        for (let i = 0; i < contatos.length; i++) {
+            vlt_total = contatos[i].qtd * contatos[i].vlr;
+            lista_contatos += `
+            <tr>
+                <th>${contatos[i].id}</th>
+                <td>${contatos[i].nome}</td>
+                <td>${(contatos[i].email)}</td>
+                <td>${contatos[i].assunto}</td>
+                <td>
+                    <a onclick="getProduto(${contatos[i].id});" 
+                    class="btn btn-warning btn-sm" 
+                    data-toggle="modal" data-target="#produto-modal">
+                    <i class="fa fa-edit"></i>  Editar
+                    </a>
+
+                    <a onclick="$('#id-prod').text(${contatos[i].id});" class="btn btn-danger btn-sm" 
+                    data-toggle="modal" data-target="#modal-delete">
+                    <i class="fa fa-trash"></i> Remover
+                    </a>
+                </td>
+            </tr>
+            `;
+            if(contatoList){
+                contatoList.innerHTML = lista_contatos;
+            }
+        }
     });
 
 // CREATE or UPDATE - PROCEDIMENTO PARA CRIAR OU EDITAR UM CONTATO
@@ -58,7 +62,7 @@ duvidasForm.addEventListener('submit', (e) => {
 
     let contDuvidas = (quantContatos + 1).toString()
     //let id = parseInt($('#id').text());    
-
+    console.log('sendEmail: '); 
     // RECUPERA OS DADOS DO CONTADOS
     const contado = JSON.stringify({
         id: contDuvidas,
@@ -70,8 +74,14 @@ duvidasForm.addEventListener('submit', (e) => {
     userEmail = document.getElementById('email-id').value;
     userName = document.getElementById('nome-id').value;
     bodyEmail = document.getElementById('assunto-id').value;
-    
     sendEmail();
+
+    minhaFuncaoAssincrona().then((mensagem) => {
+        console.log(mensagem); // "Dados recebidos!" após 2 segundos
+    });
+    
+    
+    console.log('sendEmail: ');
 
     fetch(URL, {
         method: 'POST',
@@ -85,6 +95,7 @@ duvidasForm.addEventListener('submit', (e) => {
 });
 
 async function sendEmail() {
+
     Email.send({
         Host : host,
         Username : userNameLogin,
@@ -92,7 +103,8 @@ async function sendEmail() {
         To : toEmail,
         From : fromEmail,
         Subject : subject,
-        Body : `Olá, sou ${userName}. ${bodyEmail}. Meu Email ${userEmail}`
+        Body : `Olá, sou ${userName}. ${bodyEmail}. Meu Email ${userEmail}
+        `
     }).then(
       message => {
         console.log(message)
@@ -102,6 +114,15 @@ async function sendEmail() {
         document.getElementById('assunto-id').value = '';
     }      
     );
+
+}
+
+function minhaFuncaoAssincrona() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Dados recebidos!");
+        }, 4000);
+    });
 }
 
 
