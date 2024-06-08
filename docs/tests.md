@@ -90,7 +90,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+Esta seção está apresentando um relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documentamos cada "caso de teste" apresentando um vídeo ou animação que comprova o funcionamento da funcionalidade especificada nos requisitos funcionais e não-funcionais do projeto.
 
 |*Caso de Teste*    |*CT01 - Acessar os exercícios* |
 |---|---|
