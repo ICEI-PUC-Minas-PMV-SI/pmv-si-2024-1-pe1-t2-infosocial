@@ -202,16 +202,16 @@ const validateBeneficios = (responses = []) => {
   responses.forEach(r => {
     const { id, response } = r 
     if (id === 1 && parseInt(response) >= 60) {
-      beneficios.push({ name: 'Remédios Gratuitos', link: '/src/beneficios/remedio-gratuito.html' })
-      beneficios.push({ name: 'Isenção do Imposto de Renda', link: '/src/beneficios/isencao-imposto.html' })
-      beneficios.push({ name: 'BPC', link: '/src/beneficios/bpc.html' })
-      beneficios.push({ name: 'Atendimento Preferencial', link: '/src/beneficios/atendimento-preferencial.html' })
+      beneficios.push({ name: 'Remédios Gratuitos', link: './beneficios/remedio-gratuito.html' })
+      beneficios.push({ name: 'Isenção do Imposto de Renda', link: './beneficios/isencao-imposto.html' })
+      beneficios.push({ name: 'BPC', link: './beneficios/bpc.html' })
+      beneficios.push({ name: 'Atendimento Preferencial', link: './beneficios/atendimento-preferencial.html' })
     } else if (id === 2 && parseInt(response) === 2000) {
-      beneficios.push({ name: 'Passagens Gratuitas', link: '/src/beneficios/passagem-gratuita.html' })
+      beneficios.push({ name: 'Passagens Gratuitas', link: './beneficios/passagem-gratuita.html' })
     } else if (id === 2 && parseInt(response) <= 4000) {
-      beneficios.push({ name: 'Isenção IPTU', link: '/src/beneficios/isencao-iptu.html' })
+      beneficios.push({ name: 'Isenção IPTU', link: './beneficios/isencao-iptu.html' })
     } else if (id === 3 && response === 'true' && !beneficios.find(beneficio => beneficio.name === 'Atendimento Preferencial')) {
-      beneficios.push({ name: 'Atendimento Preferencial', link: '/src/beneficios/atendimento-preferencial.html' })
+      beneficios.push({ name: 'Atendimento Preferencial', link: './beneficios/atendimento-preferencial.html' })
     }
   })
 
