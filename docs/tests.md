@@ -105,17 +105,17 @@ Esta seção está apresentando um relatório com as evidências dos testes de s
 |*Caso de Teste*    |*CT03 - Acesso a um atendimento humanizado* |
 |---|---|
 |Requisito Associado | RF-003 A aplicação deve possuir um botão para entrar em contato por whatsapp.<br> RNF-007	A aplicação deverá utilizar a API oficial do whatsapp para iniciar a conversa por whatsapp (https://wa.me).<br> RNF-002	O sistema deve ser responsivo. |
-|Link do vídeo do teste realizado: | [CT03 - Video](https://www.loom.com/share/9a08d0b3c6d84225aac825f4558faf97?sid=be5b417d-4699-474c-9f30-df2f4d06c570)  | 
+|Link do vídeo do teste realizado: | [CT03 - Video](https://www.loom.com/share/d043d4c794bd4f3aa57be0e3e705016d?sid=a0afd4fc-4d93-4b0b-b0cc-802561f94b7e)  | 
 
 |*Caso de Teste*    |*CT04 - Mapa do CRAS mais próximo* |
 |---|---|
-|Requisito Associado | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário.<br> RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações.<br> RNF-002	O sistema deve ser responsivo.<br> RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização. |
-|Link do vídeo do teste realizado: | [CT04 - Video](https://www.loom.com/share/2c39276781d44a0e8fa22358369b46d7?sid=5ea1f4ba-5c84-4948-b86d-48a313e83657)  | 
+|Requisito Associado | RF-004		A aplicação deve mostrar o CRAS mais próximo através da localização do usuário.<br> RNF-008 A aplicação deverá utilizar a API OPEN STREET MAPS para gerar mapas e traçar localizações.<br> RNF-002	O sistema deve ser responsivo.<br> RNF-009 A aplicação deverá captar a localização do usuário através da API nativa do javascript de Geolocalização.|
+|Link do vídeo do teste realizado: | [CT04 - Video](https://www.loom.com/share/10384a8dff7d4080bfab49b229181dac?sid=7a113624-b628-4293-9406-dffe36b88cf8)  | 
 
 |*Caso de Teste*    |*CT05 - Teste de anamnese* |
 |---|---|
 |Requisito Associado | RF-005	A aplicação deve possuir um formulário de anamnese para retornar todos os benefícios que se adequam ao perfil do usuário.<br> RNF-001	O sistema deve possuir uma interface de usuário amigável para o público idoso.<br> RNF-002	O sistema deve ser responsivo. |
-|Link do vídeo do teste realizado: | [CT05 - Video](https://www.loom.com/share/cc541e79b79545e4ae1a8eb3e57a94bc?sid=b24ea5c2-de46-4583-8221-bbe3c1fdf0fe)  | 
+|Link do vídeo do teste realizado: | [CT05 - Video](https://www.loom.com/share/ac3a0d32a18545e9a026b74ab4ff2f2a?sid=1a930a5b-74a8-4491-85b7-85e5c2bc66b0)  | 
 
 |*Caso de Teste*    |*CT06 - Acesso ao Fale Conosco* |
 |---|---|
