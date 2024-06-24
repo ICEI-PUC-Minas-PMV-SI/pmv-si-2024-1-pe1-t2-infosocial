@@ -1,22 +1,22 @@
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title:
+message: "Please cite this software using these metadata."
+title: InfoSocial
 authors:
-  - family-names: Candeo Medeiros e Silva
-    given-names: Marco Túlio
-  - family-names: Sodre Nunes Junior
+  - family-names: "Candeo Medeiros e Silva"
+    given-names: "Marco Túlio"
+  - family-names: "Sodre Nunes Junior"
     given-names: Sandro
-  - family-names: Amaral de Oliveira
-    given-names: Pedro Augusto
+  - family-names: "Amaral de Oliveira"
+    given-names: "Pedro Augusto"
   - name-suffix: Professora
-    affiliation: PUC Minas
-    family-names: De Nardin 
+    affiliation: "PUC Minas"
+    family-names: "De Nardin"
     given-names: Luciana
 keywords:
-  - Meia idade
+  - "Meia idade"
   - Idoso
-  - Ajuda profissional
-  - Benefícios Governamentais
+  - "Ajuda profissional"
+  - "Benefícios Governamentais"
   - InfoSocial
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-infosocial
 license: CC-BY-4.0
